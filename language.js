@@ -79,7 +79,7 @@ class LanguageManager {
                 'services.expansion.design': 'Diseño integrado y armonioso',
                 
                 // Portfolio page
-                'portfolio.title': 'Nuestro Portfolio',
+                'portfolio.title': 'Nuestro Portafolio Completo',
                 'portfolio.subtitle': 'Descubre algunos de nuestros trabajos más recientes. Cada proyecto refleja nuestro compromiso con la calidad y la excelencia en el diseño.',
                 'portfolio.kitchen.title': 'Renovación de Cocina Moderna',
                 'portfolio.kitchen.desc': 'Transformación completa con diseño contemporáneo y funcionalidad máxima.',
@@ -224,7 +224,7 @@ class LanguageManager {
                 'services.expansion.design': 'Integrated and harmonious design',
                 
                 // Portfolio page
-                'portfolio.title': 'Our Portfolio',
+                'portfolio.title': 'Our Complete Portfolio',
                 'portfolio.subtitle': 'Discover some of our most recent works. Each project reflects our commitment to quality and excellence in design.',
                 'portfolio.kitchen.title': 'Modern Kitchen Renovation',
                 'portfolio.kitchen.desc': 'Complete transformation with contemporary design and maximum functionality.',
