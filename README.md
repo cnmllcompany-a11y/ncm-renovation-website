@@ -1,107 +1,108 @@
-# NCM Renovation - Sitio Web Bilingüe
+# NCM Renovation - Professional Website
 
-Un sitio web profesional para servicios de renovación de hogares con soporte completo para español e inglés, construido con HTML, CSS (Tailwind) y JavaScript.
+Professional responsive website for NCM Renovation - Home renovation services in Texas. Complete bilingual support (Spanish/English) with modern design and functionality.
 
-## 🚀 **Repositorio: PRUEBA FINAL**
+## 🚀 **Live Repository**
 
-Este es el repositorio principal del sitio web de NCM Renovation, que incluye todas las funcionalidades implementadas y está listo para producción.
+This is the main repository for the NCM Renovation website, including all implemented features and ready for production deployment.
 
-## 🌟 Características Principales
+## 🌟 Key Features
 
-- **🌐 Bilingüe**: Soporte completo para español e inglés con cambio instantáneo
-- **📱 Diseño Responsivo**: Optimizado para dispositivos móviles y desktop
-- **🌙 Tema Oscuro**: Soporte para modo oscuro y claro
-- **🧭 Navegación Intuitiva**: Menú de navegación fácil de usar
-- **📝 Formularios Funcionales**: Formularios de contacto con validación
-- **🖼️ Portfolio Interactivo**: Filtros para proyectos por categoría
-- **💾 Persistencia**: El idioma seleccionado se guarda entre sesiones
-- **⚡ Cambio Instantáneo**: Traducción en tiempo real sin recargar la página
+- **🌐 Bilingual**: Complete support for Spanish and English with instant switching
+- **📱 Responsive Design**: Optimized for mobile devices and desktop
+- **🌙 Dark Theme**: Support for dark and light mode
+- **🧭 Intuitive Navigation**: Easy-to-use navigation menu
+- **📝 Functional Forms**: Contact forms with validation
+- **🖼️ Interactive Portfolio**: Project gallery with real renovation images
+- **💾 Persistence**: Selected language is saved between sessions
+- **⚡ Instant Change**: Real-time translation without page reload
 
-## Páginas Incluidas
+## 📄 Pages Included
 
-1. **index.html** - Página principal con información general
-2. **servicios.html** - Detalles de servicios ofrecidos
-3. **portfolio.html** - Galería de proyectos con filtros
-5. **contact.html** - Formulario de contacto e información
+1. **index.html** - Main page with company overview
+2. **servicios.html** - Services details and offerings
+3. **portfolio.html** - Project gallery with real renovation photos
+4. **contact.html** - Contact form and company information
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Technologies Used
 
-- **HTML5**: Estructura semántica
-- **Tailwind CSS**: Framework de CSS para estilos
-- **JavaScript**: Funcionalidad interactiva y sistema de idiomas
-- **Google Fonts**: Tipografía Work Sans
-- **Material Symbols**: Iconos
-- **LocalStorage**: Persistencia del idioma seleccionado
-- **CSS Grid & Flexbox**: Layouts responsivos
+- **HTML5**: Semantic structure
+- **Tailwind CSS**: Modern CSS framework
+- **JavaScript**: Interactive functionality and language system
+- **Google Fonts**: Work Sans typography
+- **Material Symbols**: Icon system
+- **LocalStorage**: Language preference persistence
+- **Cloudinary**: Image hosting and optimization
 
-## 🚀 Cómo Usar
+## 🚀 How to Use
 
-1. **Abrir el sitio**: Abre `index.html` en tu navegador web
-2. **Cambiar idioma**: Haz clic en el botón 🌐 en la esquina superior derecha
-3. **Navegar**: Usa el menú de navegación para explorar las páginas
-4. **Contactar**: Usa el formulario de contacto para enviar consultas
-5. **Explorar**: Revisa el portfolio con los filtros disponibles
+1. **Open the site**: Open `index.html` in your web browser
+2. **Change language**: Click the 🌐 button in the top right corner
+3. **Navigate**: Use the navigation menu to explore pages
+4. **Contact**: Use the contact form to send inquiries
+5. **Explore**: Browse the portfolio with real project images
 
-## 📧 Sistema de Email
+## 📧 Email System
 
-El sitio web incluye un sistema de envío de emails usando Resend API. Los formularios de contacto envían automáticamente los mensajes a `ncmllcompany@gmail.com`.
+The website includes an email sending system using Resend API. Contact forms automatically send messages to `ncmllcompany@gmail.com`.
 
-### Opciones de servidor:
+### Server options:
 
-1. **Servidor Node.js (Recomendado)**:
+1. **Node.js Server (Recommended)**:
    ```bash
    npm install
    npm start
    ```
 
-2. **Servidor PHP**:
-   - Asegúrate de que PHP esté instalado
-   - El archivo `send-email.php` manejará el envío
+2. **PHP Server**:
+   - Ensure PHP is installed
+   - The `send-email.php` file handles sending
 
-3. **Directo desde el navegador**:
-   - Funciona sin servidor adicional
-   - Usa la API de Resend directamente
+3. **Direct from browser**:
+   - Works without additional server
+   - Uses Resend API directly
 
-## 🌐 Sistema de Idiomas
+## 🌐 Language System
 
-El sitio incluye un sistema completo de traducción:
+The site includes a complete translation system:
 
-- **Cambio instantáneo** entre español e inglés
-- **Persistencia** del idioma seleccionado
-- **Traducción completa** de todos los elementos
-- **Formularios traducidos** con placeholders en ambos idiomas
-- **Mensajes de éxito** traducidos
+- **Instant switching** between Spanish and English
+- **Persistence** of selected language
+- **Complete translation** of all elements
+- **Translated forms** with placeholders in both languages
+- **Translated success messages**
 
-## 📁 Estructura del Proyecto
+## 📁 Project Structure
 
 ```
 ncm-renovation-website/
-├── index.html          # Página principal
-├── servicios.html      # Página de servicios
-├── portfolio.html      # Galería de proyectos
-├── contact.html        # Formulario de contacto
-├── language.js         # Sistema de traducción
-├── send-email.js       # Sistema de envío de emails
-├── send-email.php      # Servidor PHP para emails
-├── server.js           # Servidor Node.js
-├── package.json        # Dependencias de Node.js
-├── .htaccess          # Configuración de Apache
-├── .gitignore         # Archivos a ignorar en Git
-└── README.md          # Documentación del proyecto
+├── index.html          # Main page
+├── servicios.html      # Services page
+├── portfolio.html      # Project gallery
+├── contact.html        # Contact form
+├── language.js         # Translation system
+├── send-email.js       # Email sending system
+├── send-email.php      # PHP server for emails
+├── server.js           # Node.js server
+├── package.json        # Node.js dependencies
+├── .htaccess          # Apache configuration
+├── .gitignore         # Git ignore rules
+└── README.md          # Project documentation
 ```
 
-## 🎨 Personalización
+## 🎨 Customization
 
-Para personalizar el sitio web:
+To customize the website:
 
-- **Colores**: Modifica la configuración de Tailwind CSS en cada archivo
-- **Imágenes**: Reemplaza las URLs de las imágenes por las tuyas
-- **Contenido**: Actualiza el texto directamente en los archivos HTML
-- **Traducciones**: Modifica el archivo `language.js` para agregar nuevos idiomas
-- **Proyectos**: Agrega más proyectos en `portfolio.html`
+- **Colors**: Modify Tailwind CSS configuration in each file
+- **Images**: Replace image URLs with your own
+- **Content**: Update text directly in HTML files
+- **Translations**: Modify `language.js` file to add new languages
+- **Projects**: Add more projects in `portfolio.html`
 
-## Contacto
+## 📞 Contact Information
 
-- Teléfono: (555) 123-4567
-- Email: info@renovacionestexas.com
-- Dirección: 123 Main St, Austin, TX 78701
+- **Phone**: 7372355952
+- **Email**: ncmllcompany@gmail.com
+- **Hours**: Mon - Sat: 8 AM - 9 PM
+- **Address**: 123 Main St, Austin, TX 78701
