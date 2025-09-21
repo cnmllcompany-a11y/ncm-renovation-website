@@ -114,24 +114,28 @@
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16">
 <div>
 <h2 class="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-6 sm:mb-8" data-translate="contact.form.title">Envíanos un Mensaje</h2>
-<form class="space-y-4 sm:space-y-6" onsubmit="handleContactPageForm(event)">
+<form class="space-y-4 sm:space-y-6" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" onsubmit="handleNetlifyForm(event)">
+<!-- Campo honeypot oculto para protección contra spam -->
+<div style="display: none;">
+<label>Don't fill this out if you're human: <input name="bot-field" /></label>
+</div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
 <div>
 <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2" for="name" data-translate="contact.form.name">Nombre Completo</label>
-<input class="form-input w-full rounded-lg border-gray-300 dark:border-gray-700 bg-background-light dark:bg-background-dark text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:border-primary focus:ring-primary h-12" id="name" placeholder="Tu nombre completo" type="text" required/>
+<input class="form-input w-full rounded-lg border-gray-300 dark:border-gray-700 bg-background-light dark:bg-background-dark text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:border-primary focus:ring-primary h-12" id="name" name="name" placeholder="Tu nombre completo" type="text" required/>
 </div>
 <div>
 <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2" for="email" data-translate="contact.form.email">Correo Electrónico</label>
-<input class="form-input w-full rounded-lg border-gray-300 dark:border-gray-700 bg-background-light dark:bg-background-dark text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:border-primary focus:ring-primary h-12" id="email" placeholder="Tu correo electrónico" type="email" required/>
+<input class="form-input w-full rounded-lg border-gray-300 dark:border-gray-700 bg-background-light dark:bg-background-dark text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:border-primary focus:ring-primary h-12" id="email" name="email" placeholder="Tu correo electrónico" type="email" required/>
 </div>
 </div>
 <div>
 <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2" for="phone" data-translate="contact.form.phone">Teléfono</label>
-<input class="form-input w-full rounded-lg border-gray-300 dark:border-gray-700 bg-background-light dark:bg-background-dark text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:border-primary focus:ring-primary h-12" id="phone" placeholder="Tu número de teléfono" type="tel"/>
+<input class="form-input w-full rounded-lg border-gray-300 dark:border-gray-700 bg-background-light dark:bg-background-dark text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:border-primary focus:ring-primary h-12" id="phone" name="phone" placeholder="Tu número de teléfono" type="tel"/>
 </div>
 <div>
 <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2" for="service" data-translate="contact.form.service">Tipo de Servicio</label>
-<select class="form-select w-full rounded-lg border-gray-300 dark:border-gray-700 bg-background-light dark:bg-background-dark text-gray-900 dark:text-white focus:border-primary focus:ring-primary appearance-none h-12" id="service">
+<select class="form-select w-full rounded-lg border-gray-300 dark:border-gray-700 bg-background-light dark:bg-background-dark text-gray-900 dark:text-white focus:border-primary focus:ring-primary appearance-none h-12" id="service" name="service">
 <option selected="" data-translate="contact.form.service.select">Selecciona un servicio</option>
 <option data-translate="contact.form.service.general">Consulta General</option>
 <option data-translate="contact.form.service.kitchen">Renovación de Cocina</option>
@@ -143,7 +147,7 @@
 </div>
 <div>
 <label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2" for="message" data-translate="contact.form.message">Mensaje</label>
-<textarea class="form-textarea w-full rounded-lg border-gray-300 dark:border-gray-700 bg-background-light dark:bg-background-dark text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:border-primary focus:ring-primary" id="message" placeholder="Cuéntanos sobre tu proyecto" rows="5" required data-translate-placeholder="contact.form.messagePlaceholder"></textarea>
+<textarea class="form-textarea w-full rounded-lg border-gray-300 dark:border-gray-700 bg-background-light dark:bg-background-dark text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:border-primary focus:ring-primary" id="message" name="message" placeholder="Cuéntanos sobre tu proyecto" rows="5" required data-translate-placeholder="contact.form.messagePlaceholder"></textarea>
 </div>
 <div>
 <button class="w-full bg-gradient-to-r from-primary to-primary-light text-white font-bold py-4 px-6 rounded-lg hover:from-primary-dark hover:to-primary transition-all duration-300 shadow-lg hover:shadow-xl text-lg" type="submit" data-translate="common.sendMessage">Enviar Mensaje</button>
@@ -240,21 +244,29 @@
 </a>
 
 <script>
-function handleContactForm(event) {
+function handleNetlifyForm(event) {
     event.preventDefault();
     
-    const formData = new FormData(event.target);
-    const data = Object.fromEntries(formData);
+    const form = event.target;
+    const formData = new FormData(form);
     
-    // Simular envío del formulario
-    const message = window.languageManager ? window.languageManager.getTranslation('form.success.contact') : '¡Gracias por contactarnos! Hemos recibido tu mensaje y te responderemos en las próximas 24 horas.';
-    alert(message);
-    
-    // Limpiar el formulario
-    event.target.reset();
-    
-    // Opcional: Aquí podrías enviar los datos a un servidor
-    console.log('Datos del formulario:', data);
+    // Enviar a Netlify
+    fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
+    })
+    .then(() => {
+        // Redirigir a página de agradecimiento
+        window.location.href = 'thank-you.html';
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+        const errorMessage = window.languageManager ? 
+            window.languageManager.getTranslation('form.error') : 
+            'Hubo un error al enviar tu mensaje. Por favor, inténtalo de nuevo.';
+        alert(errorMessage);
+    });
 }
 
 function toggleMobileMenu() {

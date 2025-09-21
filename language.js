@@ -130,7 +130,23 @@ class LanguageManager {
                 
                 // Form messages
                 'form.success': '¡Gracias por contactarnos! Te responderemos pronto.',
-                'form.success.contact': '¡Gracias por contactarnos! Hemos recibido tu mensaje y te responderemos en las próximas 24 horas.'
+                'form.success.contact': '¡Gracias por contactarnos! Hemos recibido tu mensaje y te responderemos en las próximas 24 horas.',
+                'form.error': 'Hubo un error al enviar tu mensaje. Por favor, inténtalo de nuevo.',
+
+                // Thank You page
+                'thankyou.title': '¡Gracias por contactarnos!',
+                'thankyou.message': 'Hemos recibido tu mensaje exitosamente. Nuestro equipo revisará tu solicitud y te responderemos en las próximas 24 horas.',
+                'thankyou.next.title': '¿Qué sigue?',
+                'thankyou.step1.title': 'Revisión',
+                'thankyou.step1.desc': 'Revisaremos tu proyecto en detalle',
+                'thankyou.step2.title': 'Contacto',
+                'thankyou.step2.desc': 'Te llamaremos para coordinar una cita',
+                'thankyou.step3.title': 'Propuesta',
+                'thankyou.step3.desc': 'Te enviaremos una propuesta personalizada',
+                'thankyou.urgent.title': '¿Necesitas ayuda urgente?',
+                'thankyou.urgent.desc': 'Si tu proyecto es urgente, puedes contactarnos directamente:',
+                'thankyou.button.home': 'Volver al Inicio',
+                'thankyou.button.portfolio': 'Ver Nuestros Proyectos'
             },
             en: {
                 // Navigation
@@ -259,7 +275,23 @@ class LanguageManager {
                 
                 // Form messages
                 'form.success': 'Thank you for contacting us! We will respond soon.',
-                'form.success.contact': 'Thank you for contacting us! We have received your message and will respond within the next 24 hours.'
+                'form.success.contact': 'Thank you for contacting us! We have received your message and will respond within the next 24 hours.',
+                'form.error': 'There was an error sending your message. Please try again.',
+
+                // Thank You page
+                'thankyou.title': 'Thank you for contacting us!',
+                'thankyou.message': 'We have successfully received your message. Our team will review your request and respond within the next 24 hours.',
+                'thankyou.next.title': 'What\'s next?',
+                'thankyou.step1.title': 'Review',
+                'thankyou.step1.desc': 'We will review your project in detail',
+                'thankyou.step2.title': 'Contact',
+                'thankyou.step2.desc': 'We will call you to schedule an appointment',
+                'thankyou.step3.title': 'Proposal',
+                'thankyou.step3.desc': 'We will send you a personalized proposal',
+                'thankyou.urgent.title': 'Need urgent help?',
+                'thankyou.urgent.desc': 'If your project is urgent, you can contact us directly:',
+                'thankyou.button.home': 'Back to Home',
+                'thankyou.button.portfolio': 'View Our Projects'
             }
         };
         
