@@ -22,7 +22,6 @@ Este es el repositorio principal del sitio web de NCM Renovation, que incluye to
 1. **index.html** - Página principal con información general
 2. **servicios.html** - Detalles de servicios ofrecidos
 3. **portfolio.html** - Galería de proyectos con filtros
-4. **about.html** - Información sobre la empresa y equipo
 5. **contact.html** - Formulario de contacto e información
 
 ## 🛠️ Tecnologías Utilizadas
@@ -80,7 +79,6 @@ ncm-renovation-website/
 ├── index.html          # Página principal
 ├── servicios.html      # Página de servicios
 ├── portfolio.html      # Galería de proyectos
-├── about.html          # Información de la empresa
 ├── contact.html        # Formulario de contacto
 ├── language.js         # Sistema de traducción
 ├── send-email.js       # Sistema de envío de emails

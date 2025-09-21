@@ -56,7 +56,6 @@ PRUEBA-FINAL/
 ├── index.html              # Página principal
 ├── servicios.html          # Página de servicios
 ├── portfolio.html          # Galería de proyectos
-├── about.html              # Información de la empresa
 ├── contact.html            # Formulario de contacto
 ├── language.js             # Sistema de traducción
 ├── send-email.js           # Sistema de envío de emails
