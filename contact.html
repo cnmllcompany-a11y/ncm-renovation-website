@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html class="dark" lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Contacto - NCM Renovation</title>
+    <link href="https://res.cloudinary.com/deh68t2ml/image/upload/v1758484285/ChatGPT_Image_14_sept_2025_19_39_19_mkjk6v.png" rel="icon" type="image/x-icon"/>
+    <link href="https://res.cloudinary.com/deh68t2ml/image/upload/v1758484285/ChatGPT_Image_14_sept_2025_19_39_19_mkjk6v.png" rel="shortcut icon" type="image/png"/>
+    <link href="https://res.cloudinary.com/deh68t2ml/image/upload/v1758484285/ChatGPT_Image_14_sept_2025_19_39_19_mkjk6v.png" rel="apple-touch-icon" sizes="180x180"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1e3a8a",
+              "primary-light": "#3b82f6",
+              "primary-dark": "#1e40af",
+              "accent-blue": "#1e40af",
+              "light-blue": "#dbeafe",
+              "background-light": "#ffffff",
+              "background-dark": "#0f172a",
+            },
+            fontFamily: {
+              display: ["Work Sans"],
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              full: "9999px",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .form-select {
+        background-image: url("data:image/svg+xml,%3csvg xmlns=' ytp://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%237f13ec' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+        background-position: right 0.5rem center;
+        background-repeat: no-repeat;
+        background-size: 1.5em 1.5em;
+        padding-right: 2.5rem;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    </style>
+    <style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
+<header class="sticky top-0 z-50 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-md border-b border-gray-200 dark:border-gray-700">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<!-- Logo -->
+<div class="flex-shrink-0 flex items-center">
+<div class="flex items-center gap-3">
+<img src="https://res.cloudinary.com/deh68t2ml/image/upload/v1758484285/ChatGPT_Image_14_sept_2025_19_39_19_mkjk6v.png" 
+     alt="NCM Renovation Logo" 
+     class="h-12 w-auto flex-shrink-0 rounded-lg shadow-sm">
+<div class="hidden sm:block">
+<h1 class="text-xl font-bold text-gray-900 dark:text-white">NCM Renovation</h1>
+</div>
+</div>
+</div>
+
+<!-- Navegación Desktop -->
+<nav class="hidden md:block">
+<div class="ml-10 flex items-baseline space-x-8">
+<a href="index.html" class="text-gray-700 dark:text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium" data-translate="nav.home">Inicio</a>
+<a href="servicios.html" class="text-gray-700 dark:text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium" data-translate="nav.services">Servicios</a>
+<a href="portfolio.html" class="text-gray-700 dark:text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium" data-translate="nav.portfolio">Proyectos</a>
+<a href="contact.html" class="text-primary font-medium px-3 py-2 rounded-md text-sm" data-translate="nav.contact">Contacto</a>
+</div>
+</nav>
+
+<!-- Botones de idioma y menú móvil -->
+<div class="flex items-center gap-4">
+<button id="language-button" class="flex items-center gap-2 text-sm font-medium text-primary hover:text-primary-dark transition-colors">
+<span class="material-symbols-outlined"> language </span>
+<span class="language-text hidden sm:inline">Español</span>
+</button>
+<button class="md:hidden flex items-center px-3 py-2 border rounded-md text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-600" onclick="toggleMobileMenu()">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+
+<!-- Menú móvil -->
+<div id="mobile-menu" class="md:hidden hidden">
+<div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-background-light dark:bg-background-dark border-t border-gray-200 dark:border-gray-700">
+<a href="index.html" class="text-gray-700 dark:text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium" data-translate="nav.home">Inicio</a>
+<a href="servicios.html" class="text-gray-700 dark:text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium" data-translate="nav.services">Servicios</a>
+<a href="portfolio.html" class="text-gray-700 dark:text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium" data-translate="nav.portfolio">Proyectos</a>
+<a href="contact.html" class="text-primary block px-3 py-2 rounded-md text-base font-medium" data-translate="nav.contact">Contacto</a>
+</div>
+</div>
+</div>
+</header>
+<main class="py-12 sm:py-16 lg:py-24">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-12 sm:mb-16">
+<h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6" data-translate="contact.title">Contáctanos</h1>
+<p class="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto px-4" data-translate="contact.subtitle">Estamos aquí para ayudarte con tus necesidades de renovación de hogar. Contáctanos para una consulta gratuita y descubre cómo podemos transformar tu espacio.</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16">
+<div>
+<h2 class="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white mb-6 sm:mb-8" data-translate="contact.form.title">Envíanos un Mensaje</h2>
+<form class="space-y-4 sm:space-y-6" onsubmit="handleContactPageForm(event)">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2" for="name" data-translate="contact.form.name">Nombre Completo</label>
+<input class="form-input w-full rounded-lg border-gray-300 dark:border-gray-700 bg-background-light dark:bg-background-dark text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:border-primary focus:ring-primary h-12" id="name" placeholder="Tu nombre completo" type="text" required/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2" for="email" data-translate="contact.form.email">Correo Electrónico</label>
+<input class="form-input w-full rounded-lg border-gray-300 dark:border-gray-700 bg-background-light dark:bg-background-dark text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:border-primary focus:ring-primary h-12" id="email" placeholder="Tu correo electrónico" type="email" required/>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2" for="phone" data-translate="contact.form.phone">Teléfono</label>
+<input class="form-input w-full rounded-lg border-gray-300 dark:border-gray-700 bg-background-light dark:bg-background-dark text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:border-primary focus:ring-primary h-12" id="phone" placeholder="Tu número de teléfono" type="tel"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2" for="service" data-translate="contact.form.service">Tipo de Servicio</label>
+<select class="form-select w-full rounded-lg border-gray-300 dark:border-gray-700 bg-background-light dark:bg-background-dark text-gray-900 dark:text-white focus:border-primary focus:ring-primary appearance-none h-12" id="service">
+<option selected="" data-translate="contact.form.service.select">Selecciona un servicio</option>
+<option data-translate="contact.form.service.general">Consulta General</option>
+<option data-translate="contact.form.service.kitchen">Renovación de Cocina</option>
+<option data-translate="contact.form.service.bathroom">Renovación de Baño</option>
+<option data-translate="contact.form.service.expansion">Ampliación de Vivienda</option>
+<option data-translate="contact.form.service.painting">Pintura Interior/Exterior</option>
+<option data-translate="contact.form.service.landscaping">Paisajismo</option>
+</select>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2" for="message" data-translate="contact.form.message">Mensaje</label>
+<textarea class="form-textarea w-full rounded-lg border-gray-300 dark:border-gray-700 bg-background-light dark:bg-background-dark text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:border-primary focus:ring-primary" id="message" placeholder="Cuéntanos sobre tu proyecto" rows="5" required data-translate-placeholder="contact.form.messagePlaceholder"></textarea>
+</div>
+<div>
+<button class="w-full bg-gradient-to-r from-primary to-primary-light text-white font-bold py-4 px-6 rounded-lg hover:from-primary-dark hover:to-primary transition-all duration-300 shadow-lg hover:shadow-xl text-lg" type="submit" data-translate="common.sendMessage">Enviar Mensaje</button>
+</div>
+</form>
+</div>
+<div class="space-y-6">
+<h2 class="text-2xl font-bold text-gray-900 dark:text-white" data-translate="contact.info.title">Información de Contacto</h2>
+<div class="flex items-start gap-4">
+<div class="flex-shrink-0 bg-primary/10 dark:bg-primary/20 p-3 rounded-full">
+<svg class="text-primary h-6 w-6" fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M222.37,158.46l-47.11-21.11-.13-.06a16,16,0,0,0-15.17,1.4,8.12,8.12,0,0,0-.75.56L134.87,160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16,16,0,0,0,1.32-15.06l0-.12L97.54,33.64a16,16,0,0,0-16.62-9.52A56.26,56.26,0,0,0,32,80c0,79.4,64.6,144,144,144a56.26,56.26,0,0,0,55.88-48.92A16,16,0,0,0,222.37,158.46ZM176,208A128.14,128.14,0,0,1,48,80,40.2,40.2,0,0,1,82.87,40a.61.61,0,0,0,0,.12l21,47L83.2,111.86a6.13,6.13,0,0,0-.57.77,16,16,0,0,0-1,15.7c9.06,18.53,27.73,37.06,46.46,46.11a16,16,0,0,0,15.75-1.14,8.44,8.44,0,0,0,.74-.56L168.89,152l47,21.05h0s.08,0,.11,0A40.21,40.21,0,0,1,176,208Z"></path>
+</svg>
+</div>
+<div>
+<p class="font-semibold text-gray-900 dark:text-white" data-translate="common.phone">Teléfono</p>
+<p class="text-gray-600 dark:text-gray-300">7372355952</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="flex-shrink-0 bg-primary/10 dark:bg-primary/20 p-3 rounded-full">
+<svg class="text-primary h-6 w-6" fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48Zm-96,85.15L52.57,64H203.43ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z"></path>
+</svg>
+</div>
+<div>
+<p class="font-semibold text-gray-900 dark:text-white" data-translate="common.email">Correo Electrónico</p>
+<p class="text-gray-600 dark:text-gray-300">ncmllcompany@gmail.com</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="flex-shrink-0 bg-primary/10 dark:bg-primary/20 p-3 rounded-full">
+<svg class="text-primary h-6 w-6" fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm64-88a8,8,0,0,1-8,8H128a8,8,0,0,1-8-8V72a8,8,0,0,1,16,0v48h48A8,8,0,0,1,192,128Z"></path>
+</svg>
+</div>
+<div>
+<p class="font-semibold text-gray-900 dark:text-white" data-translate="common.officeHours">Horario de Oficina</p>
+<p class="text-gray-600 dark:text-gray-300">Lun - Sáb: 8 AM - 9 PM</p>
+</div>
+</div>
+</div>
+<div class="mt-8">
+<div class="w-full aspect-video rounded-xl bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDPbeb5prwxcjIRme06Ef0967KH5OYPrppa1AfXctEPVp4jb2RsRIpwpT4c4bwC05d-5vhEeQ_UUFQeKQD7oPVVpljeKQlCeBsqo4gS-P11V8cLMIApuyH2NsYQWvmZcW2ipscR5jVDmLvGYb0KI3xOk7qMr9ctHK0KLuEbkUYg6Q-xbM7KHCL5sjDoM5OhbJvBnsxfKlYpuPvKovqFdb9JhdYOAcqF7d-VuPL5S9JbXiUU0irs9uygqVN-jt5rHezerlBJCTs6pot-");'></div>
+</div>
+</main>
+
+<footer class="bg-gray-900 text-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="md:col-span-2">
+<h3 class="text-2xl font-bold mb-4">Renovaciones Texas</h3>
+                <p class="text-gray-300 mb-6 max-w-md" data-translate="footer.description">Transformamos casas en hogares de ensueño, la reciprocidad y la confianza es la clave para poder generar Calidad, innovación y excelencia en cada proyecto.</p>
+<div class="flex gap-4">
+<a class="text-gray-400 hover:text-primary transition-colors" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path></svg>
+</a>
+<a class="text-gray-400 hover:text-primary transition-colors" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.013-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.08 2.525c.636-.247 1.363-.416 2.427-.465C9.53 2.013 9.884 2 12.315 2zM12 7a5 5 0 100 10 5 5 0 000-10zm0 8a3 3 0 110-6 3 3 0 010 6zm6.406-11.845a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5z" fill-rule="evenodd"></path></svg>
+</a>
+</div>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-4" data-translate="footer.navigation">Navegación</h4>
+<nav class="space-y-2">
+<a class="block text-gray-300 hover:text-primary transition-colors" href="index.html" data-translate="nav.home">Inicio</a>
+<a class="block text-gray-300 hover:text-primary transition-colors" href="servicios.html" data-translate="nav.services">Servicios</a>
+<a class="block text-gray-300 hover:text-primary transition-colors" href="portfolio.html" data-translate="nav.portfolio">Proyectos</a>
+<a class="block text-gray-300 hover:text-primary transition-colors" href="contact.html" data-translate="nav.contact">Contacto</a>
+</nav>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-4" data-translate="footer.contact">Contacto</h4>
+<div class="space-y-2 text-gray-300">
+<p>7372355952</p>
+<p>ncmllcompany@gmail.com</p>
+</div>
+</div>
+</div>
+<div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400" data-translate="footer.copyright">© 2025 NCM Renovaciones. Todos los derechos reservados.</p>
+</div>
+</div>
+</footer>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/17372355952" target="_blank" class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 group">
+    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+    </svg>
+    <span class="absolute right-16 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white text-sm px-3 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+        ¡Escríbenos por WhatsApp!
+    </span>
+</a>
+
+<script>
+function handleContactForm(event) {
+    event.preventDefault();
+    
+    const formData = new FormData(event.target);
+    const data = Object.fromEntries(formData);
+    
+    // Simular envío del formulario
+    const message = window.languageManager ? window.languageManager.getTranslation('form.success.contact') : '¡Gracias por contactarnos! Hemos recibido tu mensaje y te responderemos en las próximas 24 horas.';
+    alert(message);
+    
+    // Limpiar el formulario
+    event.target.reset();
+    
+    // Opcional: Aquí podrías enviar los datos a un servidor
+    console.log('Datos del formulario:', data);
+}
+
+function toggleMobileMenu() {
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileMenu.classList.toggle('hidden');
+}
+</script>
+
+<script src="language.js"></script>
+<script src="send-email.js"></script>
+</body>
+</html>

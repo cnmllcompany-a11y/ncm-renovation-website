@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html class="dark" lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Portfolio - CNM Renovation</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#1e3a8a",
+              "primary-light": "#3b82f6",
+              "primary-dark": "#1e40af",
+              "accent-blue": "#1e40af",
+              "light-blue": "#dbeafe",
+              "background-light": "#ffffff",
+              "background-dark": "#0f172a",
+            },
+            fontFamily: {
+              "display": ["Work Sans"]
+            },
+            borderRadius: {
+              "DEFAULT": "0.25rem",
+              "lg": "0.5rem",
+              "xl": "0.75rem",
+              "full": "9999px"
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-900 dark:text-gray-100">
+<div class="relative flex min-h-screen w-full flex-col justify-between overflow-x-hidden">
+<div>
+<header class="sticky top-0 z-50 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-md border-b border-gray-200 dark:border-gray-700">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<!-- Logo -->
+<div class="flex-shrink-0 flex items-center">
+<div class="flex items-center gap-3">
+<img src="https://res.cloudinary.com/dezbovofd/image/upload/v1758239264/WhatsApp_Image_2025-09-18_at_17.35.23_nk9bdq.jpg" 
+     alt="Renovaciones Texas Logo" 
+     class="h-12 w-auto flex-shrink-0 rounded-lg shadow-sm">
+<div class="hidden sm:block">
+<h1 class="text-xl font-bold text-gray-900 dark:text-white">CNM Renovation</h1>
+</div>
+</div>
+</div>
+
+<!-- Navegación Desktop -->
+<nav class="hidden md:block">
+<div class="ml-10 flex items-baseline space-x-8">
+<a href="index.html" class="text-gray-700 dark:text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium">Inicio</a>
+<a href="servicios.html" class="text-gray-700 dark:text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium">Servicios</a>
+<a href="portfolio.html" class="text-primary font-medium px-3 py-2 rounded-md text-sm">Proyectos</a>
+<a href="about.html" class="text-gray-700 dark:text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium">Nosotros</a>
+<a href="contact.html" class="text-gray-700 dark:text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium">Contacto</a>
+</div>
+</nav>
+
+<!-- Botones de idioma y menú móvil -->
+<div class="flex items-center gap-4">
+<button class="flex items-center gap-2 text-sm font-medium text-primary">
+<span class="material-symbols-outlined"> language </span>
+<span class="hidden sm:inline">Español</span>
+</button>
+<button class="md:hidden flex items-center px-3 py-2 border rounded-md text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-600" onclick="toggleMobileMenu()">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+
+<!-- Menú móvil -->
+<div id="mobile-menu" class="md:hidden hidden">
+<div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-background-light dark:bg-background-dark border-t border-gray-200 dark:border-gray-700">
+<a href="index.html" class="text-gray-700 dark:text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">Inicio</a>
+<a href="servicios.html" class="text-gray-700 dark:text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">Servicios</a>
+<a href="portfolio.html" class="text-primary block px-3 py-2 rounded-md text-base font-medium">Proyectos</a>
+<a href="about.html" class="text-gray-700 dark:text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">Nosotros</a>
+<a href="contact.html" class="text-gray-700 dark:text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">Contacto</a>
+</div>
+</div>
+</div>
+</header>
+<main class="py-16 sm:py-20 lg:py-28">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-12 sm:mb-16">
+<h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6">Nuestro Portfolio</h1>
+<p class="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto px-4">Descubre algunos de nuestros trabajos más recientes y exitosos. Cada proyecto refleja nuestro compromiso con la calidad y la excelencia en el diseño.</p>
+</div>
+</div>
+
+<div class="flex flex-wrap justify-center gap-3 sm:gap-4 mb-12 sm:mb-16">
+<button class="px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm font-medium rounded-full bg-gradient-to-r from-primary to-primary-light text-white hover:from-primary-dark hover:to-primary transition-all duration-300 shadow-lg hover:shadow-xl" onclick="filterProjects('all')">Todos</button>
+<button class="px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm font-medium rounded-full bg-background-light dark:bg-background-dark/50 hover:bg-primary/10 dark:hover:bg-primary/20 text-gray-700 dark:text-gray-300 transition-colors" onclick="filterProjects('kitchen')">Cocinas</button>
+<button class="px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm font-medium rounded-full bg-background-light dark:bg-background-dark/50 hover:bg-primary/10 dark:hover:bg-primary/20 text-gray-700 dark:text-gray-300 transition-colors" onclick="filterProjects('bathroom')">Baños</button>
+<button class="px-4 sm:px-6 py-2 sm:py-3 text-xs sm:text-sm font-medium rounded-full bg-background-light dark:bg-background-dark/50 hover:bg-primary/10 dark:hover:bg-primary/20 text-gray-700 dark:text-gray-300 transition-colors" onclick="filterProjects('living')">Salas</button>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 lg:gap-12">
+<div class="group project-item" data-category="kitchen">
+<div class="relative overflow-hidden rounded-2xl mb-8 shadow-lg">
+<img class="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCc50xU4Dl74tpi0N5FEcRmEboCZVQEl6MTFFMnRMLKrL-O1Sk5WaohBHvxjjR_ae0PIcdqK-5Mvqwv8k1CvlG5aNYIPd_me24NsvoQHA5njj8q6DznJYIQKjoHlHLSUPb7xxab8ns8WNuYnhuAErJU2VtzKZSoOmk3u-22MrLrf8FMUJ9_ndJOI-nP5UPCOouLkY3KsfS4KT84ciaI6dt223_7UIPCWsd6-JWMlUWeX5BGXrx1EroszpOpCpSs5QqnSlszQw3f3TBk"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="px-3 pt-2">
+<h3 class="text-lg font-bold text-gray-900 dark:text-white mb-3 leading-tight">Renovación de Cocina Moderna</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">Transformación completa con diseño contemporáneo y funcionalidad máxima.</p>
+</div>
+</div>
+<div class="group project-item" data-category="bathroom">
+<div class="relative overflow-hidden rounded-2xl mb-8 shadow-lg">
+<img class="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3cIIFcxzHPRbYTFymVaPEGEGjx2ztGkf7pIAkPemRb5_Fn5WUlm1C-AImSWZCU7bLiLEsGqJLJ3-YVjyaTqx_DXrxkmFaRTTqEemwAQCF_wDzO6hUWVLELSUOYA09auQXntFG-3jxobPvq3tR9vw396OippZShhHNGlY7s4y8_bn5XGgD0lp2IntziGtiWM1dsZPn1B8g6CK7GdboDg2MJE9T4QxmDS6EsNOB2cJAmjsWLpmGm-Q_swyaql6S_PYUX0cjFG3PPIB3"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="px-3 pt-2">
+<h3 class="text-lg font-bold text-gray-900 dark:text-white mb-3 leading-tight">Transformación de Baño</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">Espacio de lujo con acabados premium y diseño innovador.</p>
+</div>
+</div>
+<div class="group project-item" data-category="living">
+<div class="relative overflow-hidden rounded-2xl mb-8 shadow-lg">
+<img class="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXwnnlXVQzsE3wcPsK8Pi4W3QtCISP6K8XNHmShOs5cS19WzTOBWaA4o-ajrdhKbU2AdA6OCjwfKqo5qJRXRBjIYQqYphL53VloOnsEazbPu4Z6sgiW06gN3ECjGoDCyONINS4WRsl2du3ICDfly-84V1LQ6ROJ2YbokH1t-nxFbk1RQkTUFoguF_3KJcFYAkdQMZc_i9O4e2fM_iSPrS93OVs1JDaRjNJrvnXaCxAK-XDsc2GQqkkNJcR3RoH0OBMaD4zN4mIDrKP"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="px-3 pt-2">
+<h3 class="text-lg font-bold text-gray-900 dark:text-white mb-3 leading-tight">Renovación de Sala de Estar</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">Espacio acogedor con diseño minimalista y máxima funcionalidad.</p>
+</div>
+</div>
+<div class="group project-item" data-category="living">
+<div class="relative overflow-hidden rounded-2xl mb-8 shadow-lg">
+<img class="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5EvI74AFeuUsREVWP5kSTyUDbSeXWhiPBn9FL7ZoOacb9b4G13uGewySw4g1KccqOiv3q3lc-50al-QU-X5dxSHxVNMgKe8YYVytmmTOiVbUhIk1x4CIw9PfuIWy_lgkOIT7gHy1wOgAWsC9xidjQoeNXE9AkkyaKozzwKmmUFla8KGX-7avVBHYuCOFF03NuRlf_XH7oGJ_PzEa-DbDvUFEYdosZPnObNz-IceuH15pibsCxU-hWohS7d425aOQkiHC1-3q5vyoX"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="px-3 pt-2">
+<h3 class="text-lg font-bold text-gray-900 dark:text-white mb-3 leading-tight">Espacio de Vida Exterior</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">Terraza moderna con diseño integrado y materiales duraderos.</p>
+</div>
+</div>
+<div class="group project-item" data-category="kitchen">
+<div class="relative overflow-hidden rounded-2xl mb-8 shadow-lg">
+<img class="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzs5RmvU0mJ8FwuoNxEJhq7s_nYVMC28vX_HoZYGEasEIsReCURyxbRptEf8ajJeHT7BXnaHvYrsMHWrKAfpIEJKBds_H032RAnZLgyiFdqZlGrYKFjmkqEKHO-FCwDrDvqSR7YK4dfeV4OBsYdPU2p9EF-L9FJzrBCe_pRrL0Lf5hEkTxWWEx5cr92xP8UmXuPUz59vf5JeIpDT3GOnOHt5j8WvRyVVE8ZUbai_B2rKURwe8lUSvF4maAzIbr6R2ABqjnd0Y3MugC"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="px-3 pt-2">
+<h3 class="text-lg font-bold text-gray-900 dark:text-white mb-3 leading-tight">Cocina de Lujo en Austin</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">Diseño de alta gama con electrodomésticos premium y acabados exclusivos.</p>
+</div>
+</div>
+<div class="group project-item" data-category="bathroom">
+<div class="relative overflow-hidden rounded-2xl mb-8 shadow-lg">
+<img class="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzWK5mZ80S9J1jloMpX9PvVBTyigl6fjrH1SdYHWQtHFRnVY8mxKP7lEsGnwVizZTLKm7JLf2X_0PanZSw6XnImuBriFv_19vDCCG9k8ABUOBuflLWbKUy66lwHWVQgx-T7HZLqhWx7Uq1yePAjEaFAkYV6wdUUz6VMmEeR6BGF04hmp4MZWqEkI7X_qMS0lg68yDk-w-BXi51mvC-brmXxfWTUeMnHEff5tOljzuy8YUN_ZOZTfZ8wThj3jUgzpZO6FTDHENwP1MY"/>
+<div class="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</div>
+<div class="px-3 pt-2">
+<h3 class="text-lg font-bold text-gray-900 dark:text-white mb-3 leading-tight">Baño Spa en Dallas</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">Experiencia de spa en casa con tecnología avanzada y diseño relajante.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-gray-900 text-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="md:col-span-2">
+<h3 class="text-2xl font-bold mb-4">Renovaciones Texas</h3>
+<p class="text-gray-300 mb-6 max-w-md">Transformamos casas en hogares de ensueño con años de experiencia en el mercado de Texas. Calidad, innovación y excelencia en cada proyecto.</p>
+<div class="flex gap-4">
+<a class="text-gray-400 hover:text-primary transition-colors" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path></svg>
+</a>
+<a class="text-gray-400 hover:text-primary transition-colors" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.013-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.08 2.525c.636-.247 1.363-.416 2.427-.465C9.53 2.013 9.884 2 12.315 2zM12 7a5 5 0 100 10 5 5 0 000-10zm0 8a3 3 0 110-6 3 3 0 010 6zm6.406-11.845a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5z" fill-rule="evenodd"></path></svg>
+</a>
+</div>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-4">Navegación</h4>
+<nav class="space-y-2">
+<a class="block text-gray-300 hover:text-primary transition-colors" href="index.html">Inicio</a>
+<a class="block text-gray-300 hover:text-primary transition-colors" href="servicios.html">Servicios</a>
+<a class="block text-gray-300 hover:text-primary transition-colors" href="portfolio.html">Proyectos</a>
+<a class="block text-gray-300 hover:text-primary transition-colors" href="about.html">Nosotros</a>
+<a class="block text-gray-300 hover:text-primary transition-colors" href="contact.html">Contacto</a>
+</nav>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-4">Contacto</h4>
+<div class="space-y-2 text-gray-300">
+<p>(555) 123-4567</p>
+<p>info@renovacionestexas.com</p>
+<p>123 Main St, Austin, TX 78701</p>
+</div>
+</div>
+</div>
+</div>
+<div class="border-t border-gray-800 mt-8 pt-8 text-center">
+<p class="text-gray-400">© 2024 Renovaciones Texas. Todos los derechos reservados.</p>
+</div>
+</div>
+</div>
+</footer>
+
+<script>
+function filterProjects(category) {
+    const projects = document.querySelectorAll('.project-item');
+    const buttons = document.querySelectorAll('button[onclick^="filterProjects"]');
+    
+    // Reset all buttons
+    buttons.forEach(btn => {
+        btn.classList.remove('bg-primary', 'text-white');
+        btn.classList.add('bg-background-light', 'dark:bg-background-dark/50', 'hover:bg-primary/10', 'dark:hover:bg-primary/20', 'text-gray-700', 'dark:text-gray-300');
+    });
+    
+    // Highlight selected button
+    event.target.classList.add('bg-primary', 'text-white');
+    event.target.classList.remove('bg-background-light', 'dark:bg-background-dark/50', 'hover:bg-primary/10', 'dark:hover:bg-primary/20', 'text-gray-700', 'dark:text-gray-300');
+    
+    // Filter projects
+    projects.forEach(project => {
+        if (category === 'all' || project.dataset.category === category) {
+            project.style.display = 'block';
+        } else {
+            project.style.display = 'none';
+        }
+    });
+}
+
+function toggleMobileMenu() {
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileMenu.classList.toggle('hidden');
+}
+</script>
+
+</body>
+</html>
+
+<script>
+function filterProjects(category) {
+    const projects = document.querySelectorAll('.project-item');
+    const buttons = document.querySelectorAll('button[onclick^="filterProjects"]');
+    
+    // Reset all buttons to inactive state
+    buttons.forEach(btn => {
+        btn.classList.remove('bg-gradient-to-r', 'from-primary', 'to-primary-light', 'text-white', 'shadow-lg', 'hover:shadow-xl');
+        btn.classList.add('bg-background-light', 'dark:bg-background-dark/50', 'hover:bg-primary/10', 'dark:hover:bg-primary/20', 'text-gray-700', 'dark:text-gray-300');
+    });
+    
+    // Highlight selected button with gradient
+    const selectedButton = document.querySelector(`button[onclick="filterProjects('${category}')"]`);
+    if (selectedButton) {
+        selectedButton.classList.remove('bg-background-light', 'dark:bg-background-dark/50', 'hover:bg-primary/10', 'dark:hover:bg-primary/20', 'text-gray-700', 'dark:text-gray-300');
+        selectedButton.classList.add('bg-gradient-to-r', 'from-primary', 'to-primary-light', 'text-white', 'shadow-lg', 'hover:shadow-xl');
+    }
+    
+    // Filter projects with smooth animation
+    projects.forEach(project => {
+        if (category === 'all' || project.dataset.category === category) {
+            project.style.display = 'flex';
+            project.style.opacity = '0';
+            project.style.transform = 'translateY(20px)';
+            
+            // Animate in
+            setTimeout(() => {
+                project.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+                project.style.opacity = '1';
+                project.style.transform = 'translateY(0)';
+            }, 100);
+        } else {
+            // Animate out
+            project.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+            project.style.opacity = '0';
+            project.style.transform = 'translateY(-20px)';
+            
+            setTimeout(() => {
+                project.style.display = 'none';
+            }, 300);
+        }
+    });
+}
+</script>
+
+</body>
+</html>

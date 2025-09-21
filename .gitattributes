@@ -1,0 +1,33 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# HTML files
+*.html text eol=lf
+
+# CSS files
+*.css text eol=lf
+
+# JavaScript files
+*.js text eol=lf
+
+# JSON files
+*.json text eol=lf
+
+# Markdown files
+*.md text eol=lf
+
+# PHP files
+*.php text eol=lf
+
+# Image files (binary)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text eol=lf
+
+# Video files (binary)
+*.mp4 binary
+*.webm binary
+*.ogg binary

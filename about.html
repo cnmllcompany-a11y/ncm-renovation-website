@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html class="dark" lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Sobre Nosotros - NCM Renovation</title>
+    <link href="https://res.cloudinary.com/deh68t2ml/image/upload/v1758484285/ChatGPT_Image_14_sept_2025_19_39_19_mkjk6v.png" rel="icon" type="image/x-icon"/>
+    <link href="https://res.cloudinary.com/deh68t2ml/image/upload/v1758484285/ChatGPT_Image_14_sept_2025_19_39_19_mkjk6v.png" rel="shortcut icon" type="image/png"/>
+    <link href="https://res.cloudinary.com/deh68t2ml/image/upload/v1758484285/ChatGPT_Image_14_sept_2025_19_39_19_mkjk6v.png" rel="apple-touch-icon" sizes="180x180"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1e3a8a",
+              "primary-light": "#3b82f6",
+              "primary-dark": "#1e40af",
+              "accent-blue": "#1e40af",
+              "light-blue": "#dbeafe",
+              "background-light": "#ffffff",
+              "background-dark": "#0f172a",
+            },
+            fontFamily: {
+              display: ["Work Sans"],
+            },
+            borderRadius: { DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px" },
+          },
+        },
+      };
+    </script>
+    <style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex min-h-screen w-full flex-col justify-between">
+<div class="pb-24">
+<header class="sticky top-0 z-50 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-md border-b border-gray-200 dark:border-gray-700">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<!-- Logo -->
+<div class="flex-shrink-0 flex items-center">
+<div class="flex items-center gap-3">
+<img src="https://res.cloudinary.com/deh68t2ml/image/upload/v1758484285/ChatGPT_Image_14_sept_2025_19_39_19_mkjk6v.png" 
+     alt="NCM Renovation Logo" 
+     class="h-12 w-auto flex-shrink-0 rounded-lg shadow-sm">
+<div class="hidden sm:block">
+<h1 class="text-xl font-bold text-gray-900 dark:text-white">NCM Renovation</h1>
+</div>
+</div>
+</div>
+
+<!-- Navegación Desktop -->
+<nav class="hidden md:block">
+<div class="ml-10 flex items-baseline space-x-8">
+<a href="index.html" class="text-gray-700 dark:text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium" data-translate="nav.home">Inicio</a>
+<a href="servicios.html" class="text-gray-700 dark:text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium" data-translate="nav.services">Servicios</a>
+<a href="portfolio.html" class="text-gray-700 dark:text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium" data-translate="nav.portfolio">Proyectos</a>
+<a href="about.html" class="text-primary font-medium px-3 py-2 rounded-md text-sm" data-translate="nav.about">Nosotros</a>
+<a href="contact.html" class="text-gray-700 dark:text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium" data-translate="nav.contact">Contacto</a>
+</div>
+</nav>
+
+<!-- Botones de idioma y menú móvil -->
+<div class="flex items-center gap-4">
+<button id="language-button" class="flex items-center gap-2 text-sm font-medium text-primary hover:text-primary-dark transition-colors">
+<span class="material-symbols-outlined"> language </span>
+<span class="language-text hidden sm:inline">Español</span>
+</button>
+<button class="md:hidden flex items-center px-3 py-2 border rounded-md text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-600" onclick="toggleMobileMenu()">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+
+<!-- Menú móvil -->
+<div id="mobile-menu" class="md:hidden hidden">
+<div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-background-light dark:bg-background-dark border-t border-gray-200 dark:border-gray-700">
+<a href="index.html" class="text-gray-700 dark:text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium" data-translate="nav.home">Inicio</a>
+<a href="servicios.html" class="text-gray-700 dark:text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium" data-translate="nav.services">Servicios</a>
+<a href="portfolio.html" class="text-gray-700 dark:text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium" data-translate="nav.portfolio">Proyectos</a>
+<a href="about.html" class="text-primary block px-3 py-2 rounded-md text-base font-medium" data-translate="nav.about">Nosotros</a>
+<a href="contact.html" class="text-gray-700 dark:text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium" data-translate="nav.contact">Contacto</a>
+</div>
+</div>
+</div>
+</header>
+<main class="py-16 lg:py-24">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Hero Section -->
+<div class="relative h-64 sm:h-80 md:h-96 lg:h-[500px] w-full mb-12 sm:mb-16 rounded-2xl overflow-hidden">
+<img alt="Equipo trabajando en un proyecto de renovación" class="h-full w-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2Dkg5NFVihD2aCSSIvUgD49cQx8d4HtZJQwJ10tZ7CR68sKlZD1ayxHVKYq43UfvdcMpaWgv6HBSbZiLb3BkXeqnxXR_Gw9wsY5OODENkDFxiJsXlmKujmPFpDXoL0HHFNN5lSptTNTIumhzbDCX0uLUSPhDs5LD8qHIXWJlVmNdB74lx3mgizv-0OKpiA7zs0Md2ok1ScKtTZX0PLIZsi_ViPjN0e9TRLtsMmdtJhiqgMchCyHSknW7ApdVZ3dGy9mfFhnH8A4qK"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background-dark/70 to-transparent"></div>
+<div class="absolute bottom-4 sm:bottom-6 lg:bottom-8 left-4 sm:left-6 lg:left-8 text-white">
+<h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-bold mb-2 sm:mb-4" data-translate="about.title">Sobre Nosotros</h1>
+<p class="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl max-w-2xl" data-translate="about.subtitle">Conoce la historia y valores que nos impulsan a crear hogares extraordinarios</p>
+</div>
+</div>
+
+<div class="space-y-16 sm:space-y-20">
+<section class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
+<div>
+<h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-4 sm:mb-6" data-translate="about.history.title">Nuestra Historia</h2>
+<p class="text-lg text-gray-600 dark:text-gray-400 mb-6" data-translate="about.history.text">
+                Fundada en 2015, comenzamos como un pequeño equipo con un gran sueño: transformar casas en hogares que reflejen el estilo único y las necesidades de cada familia. Nuestro viaje comenzó
+                en Austin, Texas, y desde entonces se ha expandido por todo el estado, tocando las vidas de innumerables propietarios.
+              </p>
+<div class="grid grid-cols-3 gap-6 text-center">
+<div>
+<div class="text-3xl font-bold text-primary mb-2">500+</div>
+<div class="text-sm text-gray-600 dark:text-gray-400" data-translate="about.stats.projects">Proyectos Completados</div>
+</div>
+<div>
+<div class="text-3xl font-bold text-primary mb-2">9</div>
+<div class="text-sm text-gray-600 dark:text-gray-400" data-translate="about.stats.experience">Años de Experiencia</div>
+</div>
+<div>
+<div class="text-3xl font-bold text-primary mb-2">100%</div>
+<div class="text-sm text-gray-600 dark:text-gray-400" data-translate="about.stats.satisfaction">Satisfacción del Cliente</div>
+</div>
+</div>
+</div>
+<div class="bg-gray-100 dark:bg-gray-800 rounded-2xl p-8">
+<h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4" data-translate="about.mission.title">Nuestra Misión</h3>
+<p class="text-gray-600 dark:text-gray-400" data-translate="about.mission.text">
+                Proporcionar servicios excepcionales de renovación de hogares que mejoren la calidad de vida de nuestros clientes, manteniendo los más altos estándares de artesanía y satisfacción del cliente.
+              </p>
+</div>
+</section>
+<section class="text-center">
+<h2 class="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-12" data-translate="about.values.title">Nuestros Valores</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="group">
+<div class="bg-primary/10 dark:bg-primary/20 rounded-2xl p-6 mb-4 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors">
+<span class="material-symbols-outlined text-primary text-4xl">verified</span>
+</div>
+<h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2" data-translate="about.values.integrity.title">Integridad</h3>
+<p class="text-gray-600 dark:text-gray-400" data-translate="about.values.integrity.desc">Honestidad, transparencia y prácticas éticas en cada proyecto.</p>
+</div>
+<div class="group">
+<div class="bg-primary/10 dark:bg-primary/20 rounded-2xl p-6 mb-4 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors">
+<span class="material-symbols-outlined text-primary text-4xl">star</span>
+</div>
+<h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2" data-translate="about.values.quality.title">Calidad</h3>
+<p class="text-gray-600 dark:text-gray-400" data-translate="about.values.quality.desc">Artesanía superior y los mejores materiales disponibles.</p>
+</div>
+<div class="group">
+<div class="bg-primary/10 dark:bg-primary/20 rounded-2xl p-6 mb-4 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors">
+<span class="material-symbols-outlined text-primary text-4xl">lightbulb</span>
+</div>
+<h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2" data-translate="about.values.innovation.title">Innovación</h3>
+<p class="text-gray-600 dark:text-gray-400" data-translate="about.values.innovation.desc">Creatividad para satisfacer necesidades en evolución.</p>
+</div>
+<div class="group">
+<div class="bg-primary/10 dark:bg-primary/20 rounded-2xl p-6 mb-4 group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors">
+<span class="material-symbols-outlined text-primary text-4xl">handshake</span>
+</div>
+<h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2" data-translate="about.values.collaboration.title">Colaboración</h3>
+<p class="text-gray-600 dark:text-gray-400" data-translate="about.values.collaboration.desc">Trabajo en equipo para resultados excepcionales.</p>
+</div>
+</div>
+</section>
+<section class="text-center">
+<h2 class="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-12" data-translate="about.team.title">Conoce al Equipo</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="group">
+<div class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg group-hover:shadow-xl transition-shadow">
+<img alt="Ethan Carter" class="mx-auto size-32 rounded-full object-cover ring-4 ring-primary/20 mb-6" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5jpPlW2NdMxIWuU2ym1reO9p0BTtFH7l8DdHeQygvJbawGiVPxihEsjgBXy2tIGnroJvICeTtpKt6kDZ9nS6lZwargzOwH8XdeiBalymNtQXAq1-M3WHeLFUGzUxeviqprIS3-hgpYw8-FfjXLtk7nGdNeBksf-XsAspxScbDmEhPw-4jUXzSUE9VjrXKM66ma7pIROt8GdMiXG7XmqCj-XsLCth46ei2i_jAXZCjtHaULpVjMzuc9xfMBnjHJVrhlJGOn5mbwZ9e"/>
+<h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2" data-translate="about.team.ceo.name">Ethan Carter</h3>
+<p class="text-primary font-semibold mb-4" data-translate="about.team.ceo.position">CEO & Fundador</p>
+<p class="text-gray-600 dark:text-gray-400" data-translate="about.team.ceo.desc">Con más de 15 años de experiencia en construcción y renovación, Ethan lidera la visión estratégica de la empresa.</p>
+</div>
+</div>
+<div class="group">
+<div class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg group-hover:shadow-xl transition-shadow">
+<img alt="Olivia Bennett" class="mx-auto size-32 rounded-full object-cover ring-4 ring-primary/20 mb-6" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNL6PBFIW1j3TDV2vGjNsS0EW7DIEcKHa53JW6PYzIkGD0VycmN1x_JN2bTbK7jkzMsykHvuN1m2fDwgcqXRYaFPcplgn1I_Ru1qRf9SiCRPK9mKdsmjFfdXuMXc5k91KTLqkTYMPGMVK33AUQgIqaaizpsEfGyB13ngjV48LXuwBbp0oXwT3tBQSvWAX6CkR9quRzoeAqtll7a2qdQ_CoCvIFlpM3yar7tLdlFLeL4zNRapwUiFqMYGLqC0E8kdK2vZOvRHFBocg5"/>
+<h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2" data-translate="about.team.design.name">Olivia Bennett</h3>
+<p class="text-primary font-semibold mb-4" data-translate="about.team.design.position">Líder de Diseño</p>
+<p class="text-gray-600 dark:text-gray-400" data-translate="about.team.design.desc">Arquitecta de interiores con pasión por crear espacios funcionales y hermosos que reflejen la personalidad de cada cliente.</p>
+</div>
+</div>
+<div class="group">
+<div class="bg-white dark:bg-gray-800 rounded-2xl p-8 shadow-lg group-hover:shadow-xl transition-shadow">
+<img alt="Noah Thompson" class="mx-auto size-32 rounded-full object-cover ring-4 ring-primary/20 mb-6" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLZV2R_fACX4UCcO7KS9trMrMmeYRsvZ_D6IUVzBgamAVMPdByoOG7fgigIM7rFta0jrbJ5BS54QeLcIFDjJyxW-OVIdZqEQ6Cdvu1Fo3AATSUPXc2l0yqRnOenrnNeohiCTpn2hLy6j1tOFoHUxS4C7_r4AhUrInuPxrPcb2sZPhG1MTMv6V23Yzx0bZ_HPaO1EhHF5Fbu_-PsuxrpKVaUd7a7I73LTcTCsOKRQuHYo0Hd1UWMAu737PkMSf3gaLVPNufCRg4WB65"/>
+<h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2" data-translate="about.team.project.name">Noah Thompson</h3>
+<p class="text-primary font-semibold mb-4" data-translate="about.team.project.position">Gerente de Proyectos</p>
+<p class="text-gray-600 dark:text-gray-400" data-translate="about.team.project.desc">Especialista en gestión de proyectos con enfoque en entregas puntuales y presupuestos precisos.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="text-center">
+<h2 class="text-3xl lg:text-4xl font-bold text-gray-900 dark:text-white mb-12" data-translate="about.testimonials.title">Lo que Dicen Nuestros Clientes</h2>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+<div class="group">
+<div class="relative flex flex-col justify-end overflow-hidden rounded-2xl bg-cover bg-center p-8 text-white h-80 shadow-lg group-hover:shadow-xl transition-shadow" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 60%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCC2MCcDsJJW-s3WeJZp3nMEbKlovHWWiNGmFcyYKZUGUF0yXzcCwxhJloMvtiYksPM0ua5yAfqZAg34zGXGS-bx0tagl5O2Ikzm9jLZeCWZwnv6uc0M-HSp6sD0VokdHSM5B7OSf3phdeJHTw4Del-KhiDLbgEmmkajGw8r5Dm3rd4PpjzN_xi0A38pYdi102oQyyoQxMJJiZwe36hfrUTeDGyl6YNi1yq3kRotdOgVROfmVXo4akumc-IGY32CVtzKwMitHGZ7jWv");'>
+<blockquote class="text-xl font-semibold leading-tight mb-4" data-translate="about.testimonials.1.text">"El equipo fue increíblemente profesional y atento a nuestras necesidades. ¡Transformaron nuestra cocina anticuada en una obra maestra moderna!"</blockquote>
+<cite class="block text-right font-medium not-italic text-lg" data-translate="about.testimonials.1.author">- Sophia Rodriguez</cite>
+</div>
+</div>
+<div class="group">
+<div class="relative flex flex-col justify-end overflow-hidden rounded-2xl bg-cover bg-center p-8 text-white h-80 shadow-lg group-hover:shadow-xl transition-shadow" style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 60%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuB8cILcTZag_yZ43F0bt7YaUCvAf1t9MIWDh-b7suQlXBp46sxqlYzF_qdIpJvUj1QtUncPo6KPior-oLto6NCIHCjxJyYImOtxNxLuzQN6Cz3fCKyRC8QeFVNsCfv09XHHYtWz9XgaxyOmyGKsjLHEdhWdauZDHqMEToGgpyyBse5dPtHHq2hzXniq83xkCg_BPWhHo2YVg9cNq9KwKQa7znKtPc50V-I0HDyXE9C4g4delf8I7G7KBhTpdcaugoVyktkGj0d9bVdn");'>
+<blockquote class="text-xl font-semibold leading-tight mb-4" data-translate="about.testimonials.2.text">"De principio a fin, el proceso de renovación fue perfecto. ¡No podríamos estar más felices con los resultados!"</blockquote>
+<cite class="block text-right font-medium not-italic text-lg" data-translate="about.testimonials.2.author">- Liam Walker</cite>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</main>
+
+<footer class="bg-gray-900 text-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="md:col-span-2">
+<h3 class="text-2xl font-bold mb-4">Renovaciones Texas</h3>
+                <p class="text-gray-300 mb-6 max-w-md" data-translate="footer.description">Transformamos casas en hogares de ensueño, la reciprocidad y la confianza es la clave para poder generar Calidad, innovación y excelencia en cada proyecto.</p>
+<div class="flex gap-4">
+<a class="text-gray-400 hover:text-primary transition-colors" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path></svg>
+</a>
+<a class="text-gray-400 hover:text-primary transition-colors" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.013-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.08 2.525c.636-.247 1.363-.416 2.427-.465C9.53 2.013 9.884 2 12.315 2zM12 7a5 5 0 100 10 5 5 0 000-10zm0 8a3 3 0 110-6 3 3 0 010 6zm6.406-11.845a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5z" fill-rule="evenodd"></path></svg>
+</a>
+</div>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-4" data-translate="footer.navigation">Navegación</h4>
+<nav class="space-y-2">
+<a class="block text-gray-300 hover:text-primary transition-colors" href="index.html" data-translate="nav.home">Inicio</a>
+<a class="block text-gray-300 hover:text-primary transition-colors" href="servicios.html" data-translate="nav.services">Servicios</a>
+<a class="block text-gray-300 hover:text-primary transition-colors" href="portfolio.html" data-translate="nav.portfolio">Proyectos</a>
+<a class="block text-gray-300 hover:text-primary transition-colors" href="about.html" data-translate="nav.about">Nosotros</a>
+<a class="block text-gray-300 hover:text-primary transition-colors" href="contact.html" data-translate="nav.contact">Contacto</a>
+</nav>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-4" data-translate="footer.contact">Contacto</h4>
+<div class="space-y-2 text-gray-300">
+<p>7372355952</p>
+<p>ncmllcompany@gmail.com</p>
+</div>
+</div>
+</div>
+<div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400" data-translate="footer.copyright">© 2025 NCM Renovaciones. Todos los derechos reservados.</p>
+</div>
+</div>
+</footer>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/17372355952" target="_blank" class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 hover:scale-110 group">
+    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+    </svg>
+    <span class="absolute right-16 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white text-sm px-3 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+        ¡Escríbenos por WhatsApp!
+    </span>
+</a>
+
+<script>
+function toggleMobileMenu() {
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileMenu.classList.toggle('hidden');
+}
+</script>
+
+<script src="language.js"></script>
+</body>
+</html>
