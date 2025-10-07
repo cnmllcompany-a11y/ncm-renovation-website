@@ -17,7 +17,7 @@ git config --global user.email "tu-email@gmail.com"
 1. Ir a https://github.com
 2. Hacer clic en "New repository"
 3. Nombre: `PRUEBA-FINAL`
-4. Descripción: "Sitio web bilingüe para NCM Renovation"
+4. Descripción: "Sitio web bilingüe para CNM Renovation"
 5. Seleccionar "Private"
 6. NO marcar "Add a README file"
 7. Hacer clic en "Create repository"
@@ -31,7 +31,7 @@ git init
 git add .
 
 # Hacer primer commit
-git commit -m "Initial commit: Sitio web NCM Renovation completo"
+git commit -m "Initial commit: Sitio web CNM Renovation completo"
 
 # Conectar con GitHub (reemplazar TU-USUARIO)
 git remote add origin https://github.com/TU-USUARIO/PRUEBA-FINAL.git
@@ -97,7 +97,7 @@ El sitio incluye un sistema completo de envío de emails:
 
 ## 📞 **Contacto del Proyecto**
 
-- **Empresa**: NCM Renovation
+- **Empresa**: CNM Renovation
 - **Email**: ncmllcompany@gmail.com
 - **Teléfono**: 7372355952
 - **Horario**: Lun - Sáb: 8 AM - 9 PM

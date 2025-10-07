@@ -1,10 +1,10 @@
-# NCM Renovation - Professional Website
+# CNM Renovation - Professional Website
 
-Professional responsive website for NCM Renovation - Home renovation services in Texas. Complete bilingual support (Spanish/English) with modern design and functionality.
+Professional responsive website for CNM Renovation - Home renovation services in Texas. Complete bilingual support (Spanish/English) with modern design and functionality.
 
 ## 🚀 **Live Repository**
 
-This is the main repository for the NCM Renovation website, including all implemented features and ready for production deployment.
+This is the main repository for the CNM Renovation website, including all implemented features and ready for production deployment.
 
 ## 🌟 Key Features
 

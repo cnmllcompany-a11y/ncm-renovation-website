@@ -1,7 +1,7 @@
 {
   "name": "ncm-renovation-website",
   "version": "1.0.0",
-  "description": "Sitio web bilingüe para NCM Renovation con sistema de envío de emails",
+  "description": "Sitio web bilingüe para CNM Renovation con sistema de envío de emails",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -22,7 +22,7 @@
     "email",
     "contact-form"
   ],
-  "author": "NCM Renovation",
+  "author": "CNM Renovation",
   "license": "MIT"
 }
 

@@ -92,7 +92,7 @@ class EmailService {
         return `
             <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
                 <h2 style="color: #1e3a8a; border-bottom: 2px solid #1e3a8a; padding-bottom: 10px;">
-                    Nuevo mensaje de contacto - NCM Renovation
+                    Nuevo mensaje de contacto - CNM Renovation
                 </h2>
                 
                 <div style="background-color: #f8fafc; padding: 20px; border-radius: 8px; margin: 20px 0;">
@@ -119,7 +119,7 @@ class EmailService {
 
     generateEmailText(formData) {
         return `
-Nuevo mensaje de contacto - NCM Renovation
+Nuevo mensaje de contacto - CNM Renovation
 
 Información del cliente:
 - Nombre: ${formData.name}

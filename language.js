@@ -25,10 +25,10 @@ class LanguageManager {
                 'common.living': 'Salas',
                 
                 // Index page
-                'index.title': 'Transforma tu hogar con NCM Renovation',
+                'index.title': 'Transforma tu hogar con CNM Renovation',
                 'index.subtitle': 'Expertos en renovaciones de casas, creando espacios que reflejan tu estilo y mejoran tu calidad de vida.',
                 'index.about.title': 'Sobre Nosotros',
-                'index.about.text': 'En NCM, transformamos tus ideas en un programa arquitectónico claro y una línea de tiempo basada en hitos. Integramos diseño interior/exterior, estructura y MEP (es decir, HVAC, eléctrico y plomería) para garantizar la comodidad, seguridad y eficiencia de tu hogar. Seleccionamos materiales de alto rendimiento y aplicamos ingeniería de valor (optimizando la relación costo-beneficio sin sacrificar la calidad).\n\nEn cada etapa, realizamos QA/QC (Aseguramiento y Control de Calidad), con listas de verificación, pruebas y revisiones de acabados para asegurar que todo esté perfecto. Tú defines el estilo; nosotros lo hacemos realidad con detalle técnico y calidez, siempre considerando cómo vive tu familia hoy... y mañana.',
+                'index.about.text': 'En CNM, transformamos tus ideas en un programa arquitectónico claro y una línea de tiempo basada en hitos. Integramos diseño interior/exterior, estructura y MEP (es decir, HVAC, eléctrico y plomería) para garantizar la comodidad, seguridad y eficiencia de tu hogar. Seleccionamos materiales de alto rendimiento y aplicamos ingeniería de valor (optimizando la relación costo-beneficio sin sacrificar la calidad).\n\nEn cada etapa, realizamos QA/QC (Aseguramiento y Control de Calidad), con listas de verificación, pruebas y revisiones de acabados para asegurar que todo esté perfecto. Tú defines el estilo; nosotros lo hacemos realidad con detalle técnico y calidez, siempre considerando cómo vive tu familia hoy... y mañana.',
                 'index.services.title': 'Nuestros Servicios',
                 'index.services.subtitle': 'Ofrecemos una amplia gama de servicios de renovación para transformar tu hogar en el espacio de tus sueños.',
                 'index.services.integral.title': 'Renovaciones Integrales',
@@ -126,7 +126,7 @@ class LanguageManager {
                 'footer.description': 'Transformamos casas en hogares de ensueño, la reciprocidad y la confianza es la clave para poder generar Calidad, innovación y excelencia en cada proyecto.',
                 'footer.navigation': 'Navegación',
                 'footer.contact': 'Contacto',
-                'footer.copyright': '© 2025 NCM Renovaciones. Todos los derechos reservados.',
+                'footer.copyright': '© 2025 CNM Renovaciones. Todos los derechos reservados.',
                 
                 // Form messages
                 'form.success': '¡Gracias por contactarnos! Te responderemos pronto.',
@@ -170,10 +170,10 @@ class LanguageManager {
                 'common.living': 'Living Rooms',
                 
                 // Index page
-                'index.title': 'Transform your home with NCM Renovation',
+                'index.title': 'Transform your home with CNM Renovation',
                 'index.subtitle': 'Home renovation experts, creating spaces that reflect your style and improve your quality of life.',
                 'index.about.title': 'About Us',
-                'index.about.text': 'At NCM, we transform your ideas into a clear architectural program and a milestone-based timeline. We integrate interior/exterior design, structure, and MEP—that is, HVAC, electrical, and plumbing—to ensure your home\'s comfort, safety, and efficiency. We select high-performance materials and apply value engineering (optimizing cost-benefit without sacrificing quality).\n\nAt every stage, we perform QA/QC (Quality Assurance and Control), with checklists, testing, and finish reviews to ensure everything is just right. You define the style; we bring it to life with technical detail and warmth, always considering how your family lives today… and tomorrow.',
+                'index.about.text': 'At CNM, we transform your ideas into a clear architectural program and a milestone-based timeline. We integrate interior/exterior design, structure, and MEP—that is, HVAC, electrical, and plumbing—to ensure your home\'s comfort, safety, and efficiency. We select high-performance materials and apply value engineering (optimizing cost-benefit without sacrificing quality).\n\nAt every stage, we perform QA/QC (Quality Assurance and Control), with checklists, testing, and finish reviews to ensure everything is just right. You define the style; we bring it to life with technical detail and warmth, always considering how your family lives today… and tomorrow.',
                 'index.services.title': 'Our Services',
                 'index.services.subtitle': 'We offer a wide range of renovation services to transform your home into the space of your dreams.',
                 'index.services.integral.title': 'Complete Renovations',
@@ -271,7 +271,7 @@ class LanguageManager {
                 'footer.description': 'We transform houses into dream homes, reciprocity and trust is the key to generate Quality, innovation and excellence in every project.',
                 'footer.navigation': 'Navigation',
                 'footer.contact': 'Contact',
-                'footer.copyright': '© 2025 NCM Renovations. All rights reserved.',
+                'footer.copyright': '© 2025 CNM Renovations. All rights reserved.',
                 
                 // Form messages
                 'form.success': 'Thank you for contacting us! We will respond soon.',

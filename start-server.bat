@@ -1,5 +1,5 @@
 @echo off
-echo Iniciando servidor de desarrollo para NCM Renovation...
+echo Iniciando servidor de desarrollo para CNM Renovation...
 echo.
 echo Opciones disponibles:
 echo 1. Servidor Node.js (recomendado)
