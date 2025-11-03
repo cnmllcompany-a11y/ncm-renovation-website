@@ -99,7 +99,7 @@
 <nav class="hidden md:block">
 <div class="ml-10 flex items-baseline space-x-8">
 <a href="index.html" class="text-primary font-medium px-3 py-2 rounded-md text-sm" data-translate="nav.home">Inicio</a>
-<a href="servicios.html" class="text-gray-700 dark:text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium" data-translate="nav.services">Servicios</a>
+<a href="trabajo-por-categoria.html" class="text-gray-700 dark:text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium">Categorías</a>
 <a href="portfolio.html" class="text-gray-700 dark:text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium" data-translate="nav.portfolio">Proyectos</a>
 <a href="proyectos-comerciales.html" class="text-gray-700 dark:text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium">Proyectos Comerciales</a>
 <a href="contact.html" class="text-gray-700 dark:text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium" data-translate="nav.contact">Contacto</a>
@@ -118,7 +118,7 @@
 <div id="mobile-menu" class="md:hidden hidden">
 <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-background-light dark:bg-background-dark border-t border-gray-200 dark:border-gray-700">
 <a href="index.html" class="text-primary block px-3 py-2 rounded-md text-base font-medium" data-translate="nav.home">Inicio</a>
-<a href="servicios.html" class="text-gray-700 dark:text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium" data-translate="nav.services">Servicios</a>
+<a href="trabajo-por-categoria.html" class="text-gray-700 dark:text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">Categorías</a>
 <a href="portfolio.html" class="text-gray-700 dark:text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium" data-translate="nav.portfolio">Proyectos</a>
 <a href="proyectos-comerciales.html" class="text-gray-700 dark:text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">Proyectos Comerciales</a>
 <a href="contact.html" class="text-gray-700 dark:text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium" data-translate="nav.contact">Contacto</a>
@@ -127,20 +127,20 @@
 </div>
 </header>
 <main>
-<section class="relative min-h-[70vh] sm:min-h-[80vh] flex items-center justify-center overflow-hidden">
-<video class="absolute inset-0 w-full h-full object-cover" autoplay muted loop playsinline>
+<section class="relative min-h-[70vh] sm:min-h-[80vh] flex items-center justify-center overflow-hidden bg-white dark:bg-gray-900">
+<video class="absolute inset-0 w-full h-full object-cover opacity-30" autoplay muted loop playsinline>
 <source src="https://res.cloudinary.com/deh68t2ml/video/upload/v1761008274/final_tf59jx.mp4" type="video/mp4">
 Tu navegador no soporta videos HTML5.
 </video>
-<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-white/50 via-white/20 to-white/30 dark:from-gray-900/50 dark:via-gray-900/20 dark:to-gray-900/30"></div>
 <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
 <div class="max-w-4xl mx-auto">
-<h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight text-white mb-4 sm:mb-6" data-translate="index.title">Transforma tu hogar con CNM Renovation</h1>
+<h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black leading-tight text-gray-900 dark:text-white mb-4 sm:mb-6" data-translate="index.title">Transforma tu hogar con CNM Renovation</h1>
 <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-4">
 <button class="w-full sm:w-auto flex items-center justify-center h-12 sm:h-14 px-6 sm:px-8 bg-gradient-to-r from-primary to-primary-light text-white font-bold rounded-lg hover:from-primary-dark hover:to-primary transition-all duration-300 shadow-lg hover:shadow-xl text-base sm:text-lg" onclick="window.location.href='contact.html'">
 <span data-translate="common.requestQuote">Solicitar Presupuesto</span>
 </button>
-<button class="w-full sm:w-auto flex items-center justify-center h-12 sm:h-14 px-6 sm:px-8 border-2 border-white text-white font-bold rounded-lg hover:bg-white hover:text-gray-900 transition-colors text-base sm:text-lg" onclick="window.location.href='portfolio.html'">
+<button class="w-full sm:w-auto flex items-center justify-center h-12 sm:h-14 px-6 sm:px-8 border-2 border-gray-900 dark:border-white text-gray-900 dark:text-white font-bold rounded-lg hover:bg-gray-900 hover:text-white dark:hover:bg-white dark:hover:text-gray-900 transition-colors text-base sm:text-lg" onclick="window.location.href='portfolio.html'">
 <span data-translate="common.viewProjects">Ver Proyectos</span>
 </button>
 </div>
@@ -187,172 +187,6 @@ Tu navegador no soporta videos HTML5.
 </div>
 </div>
 </section>
-
-<!-- NUEVA SECCIÓN: SERVICIOS CON GALERÍA ANTES/DESPUÉS -->
-<section class="py-16 lg:py-24 bg-gradient-to-br from-light-blue/20 to-primary/5 dark:from-primary/10 dark:to-primary-dark/5">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="text-center mb-16">
-<h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4">🛠️ NUESTROS SERVICIOS</h2>
-<p class="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">Conoce cada categoría de servicios con ejemplos reales de nuestros trabajos</p>
-</div>
-
-<!-- BAÑOS -->
-<div class="mb-16 pb-16 border-b border-gray-200 dark:border-gray-700">
-<h3 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-8 text-center">🚿 BAÑOS</h3>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Baño Antes</p>
-</div>
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Baño Después</p>
-</div>
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Baño Antes</p>
-</div>
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Baño Después</p>
-</div>
-</div>
-</div>
-
-<!-- COCINAS -->
-<div class="mb-16 pb-16 border-b border-gray-200 dark:border-gray-700">
-<h3 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-8 text-center">🍳 COCINAS</h3>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Cocina Antes</p>
-</div>
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Cocina Después</p>
-</div>
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Cocina Antes</p>
-</div>
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Cocina Después</p>
-</div>
-</div>
-</div>
-
-<!-- SUELOS: LAMINADOS -->
-<div class="mb-16 pb-16 border-b border-gray-200 dark:border-gray-700">
-<h3 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-8 text-center">🪵 SUELOS LAMINADOS</h3>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Antes</p>
-</div>
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Después</p>
-</div>
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Antes</p>
-</div>
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Después</p>
-</div>
-</div>
-</div>
-
-<!-- SUELOS: MADERA -->
-<div class="mb-16 pb-16 border-b border-gray-200 dark:border-gray-700">
-<h3 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-8 text-center">🌳 SUELOS DE MADERA</h3>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Antes</p>
-</div>
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Después</p>
-</div>
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Antes</p>
-</div>
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Después</p>
-</div>
-</div>
-</div>
-
-<!-- EXTERIOR -->
-<div class="mb-16">
-<h3 class="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-8 text-center">🏡 EXTERIOR</h3>
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Antes</p>
-</div>
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Después</p>
-</div>
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Antes</p>
-</div>
-<div class="rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
-<div class="bg-gray-300 h-48 flex items-center justify-center text-white">
-<span class="material-symbols-outlined text-5xl">image</span>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 text-center font-semibold text-gray-900 dark:text-white">Después</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- FIN SECCIÓN SERVICIOS -->
 
 <div class="bg-gray-50 dark:bg-gray-800/50 rounded-2xl p-6 sm:p-8 lg:p-12">
 <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4 text-center" data-translate="index.contact.title">¿Listo para tu próximo proyecto?</h2>
