@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html class="dark" lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Trabajos por Categoría - CNM Renovation</title>
+    <link href="https://res.cloudinary.com/deh68t2ml/image/upload/v1758484285/ChatGPT_Image_14_sept_2025_19_39_19_mkjk6v.png" rel="icon" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#7c3aed",
+              "primary-light": "#a855f7",
+              "primary-dark": "#6d28d9",
+              "light-blue": "#ede9fe",
+              "background-light": "#ffffff",
+              "background-dark": "#0f172a",
+            },
+            fontFamily: {
+              display: ["Work Sans"],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+      }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+<div class="relative w-full overflow-x-hidden">
+<header class="sticky top-0 z-50 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-md border-b border-gray-200 dark:border-gray-700">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex-shrink-0 flex items-center">
+<div class="flex items-center gap-3">
+<img src="https://res.cloudinary.com/deh68t2ml/image/upload/v1758484285/ChatGPT_Image_14_sept_2025_19_39_19_mkjk6v.png" alt="CNM Renovation Logo" class="h-12 w-auto flex-shrink-0 rounded-lg shadow-sm">
+<div class="hidden sm:block">
+<h1 class="text-xl font-bold text-gray-900 dark:text-white">CNM Renovation</h1>
+</div>
+</div>
+</div>
+<nav class="hidden md:block">
+<div class="ml-10 flex items-baseline space-x-8">
+<a href="index.html" class="text-gray-700 dark:text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium">Inicio</a>
+<a href="trabajo-por-categoria.html" class="text-primary font-medium px-3 py-2 rounded-md text-sm">Categorías</a>
+<a href="proyectos-comerciales.html" class="text-gray-700 dark:text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium">Proyectos Comerciales</a>
+<a href="contact.html" class="text-gray-700 dark:text-gray-300 hover:text-primary px-3 py-2 rounded-md text-sm font-medium">Contacto</a>
+</div>
+</nav>
+<div class="flex items-center gap-4">
+<button id="language-button" class="flex items-center gap-2 text-sm font-medium text-primary hover:text-primary-dark transition-colors">
+<span class="material-symbols-outlined">language</span>
+<span class="language-text hidden sm:inline">Español</span>
+</button>
+<button class="md:hidden flex items-center px-3 py-2 border rounded-md text-gray-700 dark:text-gray-300 border-gray-300 dark:border-gray-600" onclick="toggleMobileMenu()">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+<div id="mobile-menu" class="md:hidden hidden">
+<div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-background-light dark:bg-background-dark border-t border-gray-200 dark:border-gray-700">
+<a href="index.html" class="text-gray-700 dark:text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">Inicio</a>
+<a href="trabajo-por-categoria.html" class="text-primary block px-3 py-2 rounded-md text-base font-medium">Categorías</a>
+<a href="proyectos-comerciales.html" class="text-gray-700 dark:text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">Proyectos Comerciales</a>
+<a href="contact.html" class="text-gray-700 dark:text-gray-300 hover:text-primary block px-3 py-2 rounded-md text-base font-medium">Contacto</a>
+</div>
+</div>
+</div>
+</header>
+
+<main>
+<section class="py-16 lg:py-24 bg-gray-50 dark:bg-gray-800/30">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-gray-900 dark:text-white mb-4">Trabajos por Categoría</h1>
+<p class="text-base sm:text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">Explora nuestros trabajos organizados por tipo de proyecto. Haz clic en cualquier categoría para ver todas las fotos.</p>
+</div>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+<!-- BAÑOS -->
+<div class="group cursor-pointer" onclick="showCategory('banos')">
+<div class="relative overflow-hidden rounded-xl mb-4 h-48 sm:h-56 bg-gradient-to-br from-cyan-400 to-cyan-600 flex items-center justify-center hover:shadow-2xl transition-all duration-300">
+<span class="material-symbols-outlined text-white text-6xl">bathroom</span>
+</div>
+<h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-primary transition-colors">Baños</h3>
+<p class="text-gray-600 dark:text-gray-400">Ver trabajos Antes y Después</p>
+</div>
+
+<!-- COCINAS -->
+<div class="group cursor-pointer" onclick="showCategory('cocinas')">
+<div class="relative overflow-hidden rounded-xl mb-4 h-48 sm:h-56 bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center hover:shadow-2xl transition-all duration-300">
+<span class="material-symbols-outlined text-white text-6xl">kitchen</span>
+</div>
+<h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-primary transition-colors">Cocinas</h3>
+<p class="text-gray-600 dark:text-gray-400">Remodelaciones completas de cocinas</p>
+</div>
+
+<!-- SUELOS -->
+<div class="group cursor-pointer" onclick="showCategoryWithSubcategories('suelos')">
+<div class="relative overflow-hidden rounded-xl mb-4 h-48 sm:h-56 bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center hover:shadow-2xl transition-all duration-300">
+<span class="material-symbols-outlined text-white text-6xl">surface</span>
+</div>
+<h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-primary transition-colors">Suelos</h3>
+<p class="text-gray-600 dark:text-gray-400">Suelo Tile y Suelo Laminado</p>
+</div>
+
+<!-- EXTERIOR -->
+<div class="group cursor-pointer" onclick="showCategory('exterior')">
+<div class="relative overflow-hidden rounded-xl mb-4 h-48 sm:h-56 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center hover:shadow-2xl transition-all duration-300">
+<span class="material-symbols-outlined text-white text-6xl">nature_people</span>
+</div>
+<h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-primary transition-colors">Exterior</h3>
+<p class="text-gray-600 dark:text-gray-400">Trabajos de exterior y fachadas</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- Modal de Galería -->
+<div id="categoryModal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-black/80 backdrop-blur-sm">
+<div class="flex items-center justify-center min-h-screen p-4">
+<div class="bg-background-dark rounded-2xl w-full max-w-6xl max-h-[90vh] overflow-y-auto">
+<div class="sticky top-0 bg-gray-900 border-b border-gray-700 p-6 flex items-center justify-between">
+<h2 id="categoryTitle" class="text-3xl font-bold text-white">Categoría</h2>
+<button onclick="closeCategory()" class="text-gray-400 hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">close</span>
+</button>
+</div>
+
+<div class="p-6">
+<div id="categoryGallery" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Modal de Subcategorías -->
+<div id="subcategoryModal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-black/80 backdrop-blur-sm">
+<div class="flex items-center justify-center min-h-screen p-4">
+<div class="bg-background-dark rounded-2xl w-full max-w-2xl">
+<div class="sticky top-0 bg-gray-900 border-b border-gray-700 p-6 flex items-center justify-between">
+<h2 class="text-3xl font-bold text-white">Tipos de Suelos</h2>
+<button onclick="closeSubcategory()" class="text-gray-400 hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">close</span>
+</button>
+</div>
+
+<div class="p-6 space-y-4">
+<button onclick="showCategory('suelo-laminado')" class="w-full p-6 bg-gradient-to-r from-amber-500 to-amber-600 text-white font-bold rounded-lg hover:from-amber-600 hover:to-amber-700 transition-all duration-300 shadow-lg hover:shadow-xl text-lg">
+<span class="material-symbols-outlined mr-2">layers</span>
+Suelo Laminado
+</button>
+<button onclick="showCategory('suelo-tile')" class="w-full p-6 bg-gradient-to-r from-gray-500 to-gray-600 text-white font-bold rounded-lg hover:from-gray-600 hover:to-gray-700 transition-all duration-300 shadow-lg hover:shadow-xl text-lg">
+<span class="material-symbols-outlined mr-2">dashboard</span>
+Suelo Tile
+</button>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Sección de Contacto -->
+<section class="py-16 lg:py-24">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="bg-gray-50 dark:bg-gray-800/50 rounded-2xl p-6 sm:p-8 lg:p-12 text-center">
+<h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">¿Te interesa alguno de estos trabajos?</h2>
+<p class="text-base sm:text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-3xl mx-auto">Contáctanos hoy para solicitar un presupuesto gratuito</p>
+<button class="inline-flex items-center justify-center h-12 px-8 bg-gradient-to-r from-primary to-primary-light text-white font-bold rounded-lg hover:from-primary-dark hover:to-primary transition-all duration-300 shadow-lg hover:shadow-xl" onclick="window.location.href='contact.html'">
+Solicitar Presupuesto
+</button>
+</div>
+</div>
+</section>
+
+</main>
+
+<footer class="bg-gray-900 text-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="md:col-span-2">
+<h3 class="text-2xl font-bold mb-4">Renovaciones Texas</h3>
+<p class="text-gray-300 mb-6 max-w-md">Transformamos casas en hogares de ensueño, la reciprocidad y la confianza es la clave para poder generar Calidad, innovación y excelencia en cada proyecto.</p>
+<div class="flex gap-4">
+<a class="text-gray-400 hover:text-primary transition-colors" href="https://www.facebook.com/share/1BCpL9jN8o/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" title="Facebook">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path></svg>
+</a>
+<a class="text-gray-400 hover:text-primary transition-colors" href="https://www.instagram.com/cnmrenovation/" target="_blank" rel="noopener noreferrer" title="Instagram">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.013-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.08 2.525c.636-.247 1.363-.416 2.427-.465C9.53 2.013 9.884 2 12.315 2zM12 7a5 5 0 100 10 5 5 0 000-10zm0 8a3 3 0 110-6 3 3 0 010 6zm6.406-11.845a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5z" fill-rule="evenodd"></path></svg>
+</a>
+</div>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-4">Navegación</h4>
+<nav class="space-y-2">
+<a class="block text-gray-300 hover:text-primary transition-colors" href="index.html">Inicio</a>
+<a class="block text-gray-300 hover:text-primary transition-colors" href="trabajo-por-categoria.html">Categorías</a>
+<a class="block text-gray-300 hover:text-primary transition-colors" href="proyectos-comerciales.html">Proyectos Comerciales</a>
+<a class="block text-gray-300 hover:text-primary transition-colors" href="contact.html">Contacto</a>
+</nav>
+</div>
+<div>
+<h4 class="text-lg font-semibold mb-4">Contacto</h4>
+<div class="space-y-2 text-gray-300">
+<p>7372355952</p>
+<p>ncmllcompany@gmail.com</p>
+</div>
+</div>
+</div>
+<div class="border-t border-gray-800 mt-8 pt-8 text-center">
+<p class="text-gray-400">© 2025 CNM Renovaciones. Todos los derechos reservados.</p>
+</div>
+</div>
+</footer>
+
+</div>
+
+<script>
+const categories = {
+  banos: {
+    title: "Baños - Antes y Después",
+    images: [
+      "https://res.cloudinary.com/deh68t2ml/image/upload/v1762141996/BEFORE_BA%C3%91O_z55x5l.jpg",
+      "https://res.cloudinary.com/deh68t2ml/image/upload/v1762141986/AFTER_BA%C3%91O_hcxa4h.jpg",
+      "https://res.cloudinary.com/deh68t2ml/image/upload/v1758410394/5_ebf2r8.jpg",
+      "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=400&fit=crop",
+    ]
+  },
+  cocinas: {
+    title: "Cocinas",
+    images: [
+      "https://res.cloudinary.com/deh68t2ml/image/upload/v1758410883/ChatGPT_Image_20_sept_2025_18_26_58_qenpjw.png",
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1556911220-bff7e6803dc0?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?w=600&h=400&fit=crop",
+    ]
+  },
+  'suelo-laminado': {
+    title: "Suelo Laminado",
+    images: [
+      "https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1585399607260-5f6aaf8c2255?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1615529182904-14819c35db37?w=600&h=400&fit=crop",
+    ]
+  },
+  'suelo-tile': {
+    title: "Suelo Tile",
+    images: [
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1586023492125-111184c52e00?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&h=400&fit=crop",
+    ]
+  },
+  exterior: {
+    title: "Exterior - Fachadas y Paisajismo",
+    images: [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&h=400&fit=crop",
+    ]
+  }
+};
+
+function showCategory(categoryKey) {
+  const category = categories[categoryKey];
+  const modal = document.getElementById('categoryModal');
+  const title = document.getElementById('categoryTitle');
+  const gallery = document.getElementById('categoryGallery');
+  
+  title.textContent = category.title;
+  gallery.innerHTML = category.images.map(img => `
+    <div class="group">
+      <div class="relative overflow-hidden rounded-xl mb-4">
+        <img class="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-300 cursor-pointer" src="${img}" alt="${category.title}" onclick="openFullscreen('${img}')"/>
+      </div>
+    </div>
+  `).join('');
+  
+  document.getElementById('subcategoryModal').classList.add('hidden');
+  modal.classList.remove('hidden');
+}
+
+function showCategoryWithSubcategories(categoryKey) {
+  document.getElementById('subcategoryModal').classList.remove('hidden');
+}
+
+function closeCategory() {
+  document.getElementById('categoryModal').classList.add('hidden');
+}
+
+function closeSubcategory() {
+  document.getElementById('subcategoryModal').classList.add('hidden');
+}
+
+function toggleMobileMenu() {
+  const menu = document.getElementById('mobile-menu');
+  menu.classList.toggle('hidden');
+}
+
+function openFullscreen(src) {
+  const img = new Image();
+  img.src = src;
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  const categoryModal = document.getElementById('categoryModal');
+  const subcategoryModal = document.getElementById('subcategoryModal');
+  
+  categoryModal.addEventListener('click', function(e) {
+    if (e.target === categoryModal) {
+      closeCategory();
+    }
+  });
+  
+  subcategoryModal.addEventListener('click', function(e) {
+    if (e.target === subcategoryModal) {
+      closeSubcategory();
+    }
+  });
+});
+</script>
+
+</body>
+</html>
+
+
