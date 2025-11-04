@@ -131,7 +131,7 @@
 <!-- Modal de Galería -->
 <div id="categoryModal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-black/80 backdrop-blur-sm">
 <div class="flex items-center justify-center min-h-screen p-4">
-<div class="bg-background-dark rounded-2xl w-full max-w-6xl max-h-[90vh] overflow-y-auto">
+<div class="bg-background-dark rounded-2xl w-full max-w-7xl max-h-[95vh] overflow-y-auto">
 <div class="sticky top-0 bg-gray-900 border-b border-gray-700 p-6 flex items-center justify-between">
 <h2 id="categoryTitle" class="text-3xl font-bold text-white">Categoría</h2>
 <button onclick="closeCategory()" class="text-gray-400 hover:text-white transition-colors">
@@ -139,8 +139,8 @@
 </button>
 </div>
 
-<div class="p-6">
-<div id="categoryGallery" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="p-6 sm:p-8 lg:p-12">
+<div id="categoryGallery" class="grid grid-cols-1 gap-8">
 </div>
 </div>
 </div>
@@ -281,9 +281,9 @@ function showCategory(categoryKey) {
   
   title.textContent = category.title;
   gallery.innerHTML = category.images.map(img => `
-    <div class="group">
-      <div class="relative overflow-hidden rounded-xl mb-4">
-        <img class="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-300 cursor-pointer" src="${img}" alt="${category.title}" onclick="openFullscreen('${img}')"/>
+    <div class="group flex justify-center">
+      <div class="relative overflow-hidden rounded-xl bg-gray-800 w-full max-w-4xl">
+        <img class="w-full h-auto object-contain max-h-[75vh] mx-auto group-hover:scale-105 transition-transform duration-300 cursor-pointer" src="${img}" alt="${category.title}" onclick="openFullscreen('${img}')"/>
       </div>
     </div>
   `).join('');
