@@ -80,159 +80,130 @@
 
 <main>
 <!-- Hero Section -->
-<section class="relative min-h-[60vh] flex items-center justify-center bg-gradient-to-br from-gray-900 via-primary to-gray-900 py-16">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-<h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white mb-6">💎 PROYECTOS COMERCIALES</h1>
-<p class="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto">Nuestras obras maestras en proyectos de lujo y alta gama</p>
+<section class="relative min-h-[70vh] flex items-center justify-center py-24 overflow-hidden">
+<div class="absolute inset-0">
+<img src="https://res.cloudinary.com/deh68t2ml/image/upload/f_auto,q_auto/v1762678608/IMG_8913_wljapq.heic" alt="Mansión de lujo CNM Renovation" class="w-full h-full object-cover object-center">
+</div>
+<div class="absolute inset-0 bg-gradient-to-br from-black/80 via-black/60 to-black/40"></div>
+<div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+<p class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white text-sm sm:text-base uppercase tracking-[0.2em]" data-translate="commercial.hero.tag">Hutto, Texas · 2.5M USD</p>
+<h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white" data-translate="commercial.hero.title">💎 PROYECTOS COMERCIALES</h1>
+<p class="text-lg sm:text-xl text-gray-200 max-w-3xl mx-auto" data-translate="commercial.hero.subtitle">Diseñamos y entregamos experiencias residenciales de ultra lujo para inversores que buscan diferenciación real.</p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+<button class="inline-flex items-center justify-center h-14 px-8 bg-primary text-white font-bold rounded-lg hover:bg-primary-dark transition-all duration-300 shadow-lg hover:shadow-xl" onclick="window.location.href='contact.html'">
+<span class="material-symbols-outlined mr-2">handshake</span><span data-translate="commercial.hero.ctaPrimary">Agenda una reunión privada</span>
+</button>
+<button class="inline-flex items-center justify-center h-14 px-8 bg-white/15 text-white font-semibold rounded-lg hover:bg-white/25 transition-all duration-300 border border-white/20 backdrop-blur-sm" onclick="document.getElementById('servicios-mansion').scrollIntoView({behavior: 'smooth'})">
+<span class="material-symbols-outlined mr-2">arrow_downward</span><span data-translate="commercial.hero.ctaSecondary">Ver alcance completo</span>
+</button>
+</div>
 </div>
 </section>
 
-<!-- Proyecto Principal: Mansion -->
-<section class="py-16 lg:py-24">
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-<div class="mb-16">
-<h2 class="text-4xl sm:text-5xl md:text-6xl font-black text-gray-900 dark:text-white mb-4 text-center">🏰 PROYECTO COMERCIAL</h2>
-<h3 class="text-2xl sm:text-3xl md:text-4xl font-bold text-primary text-center mb-8">MANSION DE LUJO - 2.5 MILLONES USD</h3>
-
-<!-- Detalles del Proyecto -->
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-<div class="bg-gradient-to-br from-primary/10 to-primary/5 dark:from-primary/20 dark:to-primary/10 rounded-xl p-6 border border-primary/20">
-<span class="material-symbols-outlined text-primary text-4xl mb-3 block">home</span>
-<h4 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Tipo</h4>
-<p class="text-gray-600 dark:text-gray-400">Mansion Residencial Luxury</p>
+<!-- Servicios Ejecutados -->
+<section id="servicios-mansion" class="mb-16">
+<h4 class="text-3xl font-bold text-gray-900 dark:text-white mb-8 text-center" data-translate="commercial.services.heading">🔧 Lo que hicimos en la mansión</h4>
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+<div class="p-8 rounded-2xl bg-gradient-to-br from-primary/10 to-primary/5 dark:from-primary/15 dark:to-primary/5 border border-primary/20 backdrop-blur-sm">
+<span class="material-symbols-outlined text-primary text-4xl mb-4 block">format_paint</span>
+<h5 class="text-xl font-bold text-gray-900 dark:text-white mb-3" data-translate="commercial.services.paint.title">Pintura y acabados premium</h5>
+<ul class="space-y-2 text-gray-600 dark:text-gray-400">
+<li>• <span data-translate="commercial.services.paint.item1">Sello antihumedad y aislamiento térmico en toda la envolvente</span></li>
+<li>• <span data-translate="commercial.services.paint.item2">Paletas personalizadas con acabados mate y alto brillo</span></li>
+<li>• <span data-translate="commercial.services.paint.item3">Revestimientos decorativos en yeso veneciano y paneles 3D</span></li>
+</ul>
 </div>
 
-<div class="bg-gradient-to-br from-primary/10 to-primary/5 dark:from-primary/20 dark:to-primary/10 rounded-xl p-6 border border-primary/20">
-<span class="material-symbols-outlined text-primary text-4xl mb-3 block">price_check</span>
-<h4 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Inversión</h4>
-<p class="text-gray-600 dark:text-gray-400">$2,500,000 USD</p>
+<div class="p-8 rounded-2xl bg-gradient-to-br from-primary/10 to-primary/5 dark:from-primary/15 dark:to-primary/5 border border-primary/20 backdrop-blur-sm">
+<span class="material-symbols-outlined text-primary text-4xl mb-4 block">bolt</span>
+<h5 class="text-xl font-bold text-gray-900 dark:text-white mb-3" data-translate="commercial.services.electrical.title">Electricidad y domótica</h5>
+<ul class="space-y-2 text-gray-600 dark:text-gray-400">
+<li>• <span data-translate="commercial.services.electrical.item1">Rediseño eléctrico certificado con paneles inteligentes</span></li>
+<li>• <span data-translate="commercial.services.electrical.item2">Iluminación arquitectónica controlada por escenas</span></li>
+<li>• <span data-translate="commercial.services.electrical.item3">Sistema domótico integral (clima, seguridad, audio)</span></li>
+</ul>
 </div>
 
-<div class="bg-gradient-to-br from-primary/10 to-primary/5 dark:from-primary/20 dark:to-primary/10 rounded-xl p-6 border border-primary/20">
-<span class="material-symbols-outlined text-primary text-4xl mb-3 block">schedule</span>
-<h4 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Duración</h4>
-<p class="text-gray-600 dark:text-gray-400">12-18 meses</p>
+<div class="p-8 rounded-2xl bg-gradient-to-br from-primary/10 to-primary/5 dark:from-primary/15 dark:to-primary/5 border border-primary/20 backdrop-blur-sm">
+<span class="material-symbols-outlined text-primary text-4xl mb-4 block">handyman</span>
+<h5 class="text-xl font-bold text-gray-900 dark:text-white mb-3" data-translate="commercial.services.carpentry.title">Carpintería y madera fina</h5>
+<ul class="space-y-2 text-gray-600 dark:text-gray-400">
+<li>• <span data-translate="commercial.services.carpentry.item1">Mobiliario integrado en biblioteca, bar y suites</span></li>
+<li>• <span data-translate="commercial.services.carpentry.item2">Puertas macizas con tallados personalizados</span></li>
+<li>• <span data-translate="commercial.services.carpentry.item3">Revestimientos en nogal americano y roble blanco</span></li>
+</ul>
 </div>
 
-<div class="bg-gradient-to-br from-primary/10 to-primary/5 dark:from-primary/20 dark:to-primary/10 rounded-xl p-6 border border-primary/20">
-<span class="material-symbols-outlined text-primary text-4xl mb-3 block">star</span>
-<h4 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Estado</h4>
-<p class="text-gray-600 dark:text-gray-400">Completado con éxito</p>
-</div>
-</div>
-
-<!-- Descripción del Proyecto -->
-<div class="bg-gray-50 dark:bg-gray-800/50 rounded-2xl p-8 mb-12">
-<h4 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">Acerca del Proyecto</h4>
-<p class="text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
-Esta mansion de lujo de 2.5 millones de dólares es una obra maestra arquitectónica que combina elegancia moderna con comodidades de clase mundial. 
-El proyecto incluye renovaciones completas de 12 cuartos, 8 baños de mármol, cocina gourmet con equipamiento premium, salas de estar, biblioteca, sala de cine, gimnasio privado y piscina infinita.
-</p>
-<p class="text-base sm:text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-Cada detalle fue cuidadosamente diseñado y ejecutado por el equipo de CNM Renovation, utilizando materiales de la más alta calidad y la tecnología más avanzada en construcción y automatización del hogar.
-</p>
+<div class="p-8 rounded-2xl bg-gradient-to-br from-primary/10 to-primary/5 dark:from-primary/15 dark:to-primary/5 border border-primary/20 backdrop-blur-sm">
+<span class="material-symbols-outlined text-primary text-4xl mb-4 block">plumbing</span>
+<h5 class="text-xl font-bold text-gray-900 dark:text-white mb-3" data-translate="commercial.services.plumbing.title">Instalaciones hidráulicas y climatización</h5>
+<ul class="space-y-2 text-gray-600 dark:text-gray-400">
+<li>• <span data-translate="commercial.services.plumbing.item1">Renovación de plomería de alta capacidad y eficiencia</span></li>
+<li>• <span data-translate="commercial.services.plumbing.item2">Sistema HVAC zonificado con filtración hospitalaria</span></li>
+<li>• <span data-translate="commercial.services.plumbing.item3">Spa interior y piscina climatizada con control remoto</span></li>
+</ul>
 </div>
 
-<!-- Galería de Videos -->
-<h4 class="text-3xl font-bold text-gray-900 dark:text-white mb-8 text-center">📹 VIDEOS DEL PROYECTO</h4>
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-<div class="rounded-2xl overflow-hidden shadow-2xl">
-<div class="aspect-video bg-gray-900 flex items-center justify-center">
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Mansion Tour Completo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 font-semibold text-gray-900 dark:text-white text-center">Tour Completo de la Mansion</p>
-</div>
-
-<div class="rounded-2xl overflow-hidden shadow-2xl">
-<div class="aspect-video bg-gray-900 flex items-center justify-center">
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Proceso de Construccion" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 font-semibold text-gray-900 dark:text-white text-center">Proceso de Construcción (Time Lapse)</p>
-</div>
+<div class="p-8 rounded-2xl bg-gradient-to-br from-primary/10 to-primary/5 dark:from-primary/15 dark:to-primary/5 border border-primary/20 backdrop-blur-sm">
+<span class="material-symbols-outlined text-primary text-4xl mb-4 block">foundation</span>
+<h5 class="text-xl font-bold text-gray-900 dark:text-white mb-3" data-translate="commercial.services.structure.title">Estructura y envolvente</h5>
+<ul class="space-y-2 text-gray-600 dark:text-gray-400">
+<li>• <span data-translate="commercial.services.structure.item1">Refuerzo estructural para grandes claros y dobles alturas</span></li>
+<li>• <span data-translate="commercial.services.structure.item2">Ventanería de alto rendimiento con control UV</span></li>
+<li>• <span data-translate="commercial.services.structure.item3">Impermeabilización y aislamiento acústico integral</span></li>
+</ul>
 </div>
 
-<!-- Galería de Fotos -->
-<h4 class="text-3xl font-bold text-gray-900 dark:text-white mb-8 text-center">📸 GALERÍA DE FOTOS</h4>
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-<div class="group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer">
-<img class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop" alt="Fachada Principal"/>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 font-semibold text-gray-900 dark:text-white">Fachada Principal</p>
-</div>
-
-<div class="group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer">
-<img class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300" src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3c4?w=600&h=400&fit=crop" alt="Sala de Estar Principal"/>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 font-semibold text-gray-900 dark:text-white">Sala de Estar Principal</p>
-</div>
-
-<div class="group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer">
-<img class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300" src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=400&fit=crop" alt="Cocina Gourmet"/>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 font-semibold text-gray-900 dark:text-white">Cocina Gourmet Premium</p>
-</div>
-
-<div class="group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer">
-<img class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300" src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=400&fit=crop" alt="Cuarto Principal"/>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 font-semibold text-gray-900 dark:text-white">Suite Principal Luxury</p>
-</div>
-
-<div class="group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer">
-<img class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300" src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=400&fit=crop" alt="Baño Mármol"/>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 font-semibold text-gray-900 dark:text-white">Baños de Mármol</p>
-</div>
-
-<div class="group rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer">
-<img class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-300" src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=600&h=400&fit=crop" alt="Piscina Infinita"/>
-<p class="p-4 bg-gray-100 dark:bg-gray-800 font-semibold text-gray-900 dark:text-white">Piscina Infinita</p>
+<div class="p-8 rounded-2xl bg-gradient-to-br from-primary/10 to-primary/5 dark:from-primary/15 dark:to-primary/5 border border-primary/20 backdrop-blur-sm">
+<span class="material-symbols-outlined text-primary text-4xl mb-4 block">yard</span>
+<h5 class="text-xl font-bold text-gray-900 dark:text-white mb-3" data-translate="commercial.services.exterior.title">Exteriores y paisajismo</h5>
+<ul class="space-y-2 text-gray-600 dark:text-gray-400">
+<li>• <span data-translate="commercial.services.exterior.item1">Diseño de jardines xeriscape adaptado a Hutto, TX</span></li>
+<li>• <span data-translate="commercial.services.exterior.item2">Iluminación exterior teatral y senderos en piedra natural</span></li>
+<li>• <span data-translate="commercial.services.exterior.item3">Terraza panorámica con cocina exterior y fire pit</span></li>
+</ul>
 </div>
 </div>
 
-<!-- Características Destacadas -->
-<h4 class="text-3xl font-bold text-gray-900 dark:text-white mb-8 text-center">✨ CARACTERÍSTICAS DESTACADAS</h4>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-<div class="flex items-start gap-4 p-6 bg-gradient-to-br from-primary/5 to-transparent rounded-xl border border-primary/10">
-<span class="material-symbols-outlined text-primary text-4xl flex-shrink-0">checkmark_circle</span>
-<div>
-<h5 class="text-xl font-bold text-gray-900 dark:text-white mb-2">12 Cuartos Equipados</h5>
-<p class="text-gray-600 dark:text-gray-400">Cada cuarto con diseño único y acabados premium</p>
+<div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="p-6 rounded-2xl bg-white dark:bg-gray-900/60 border border-primary/10 text-center shadow-lg shadow-primary/10">
+<p class="text-5xl font-black text-primary mb-2">+18</p>
+<p class="text-gray-600 dark:text-gray-300 font-semibold uppercase tracking-[0.2em] text-sm" data-translate="commercial.metrics.specialties">Especialidades coordinadas</p>
+</div>
+<div class="p-6 rounded-2xl bg-white dark:bg-gray-900/60 border border-primary/10 text-center shadow-lg shadow-primary/10">
+<p class="text-5xl font-black text-primary mb-2">0</p>
+<p class="text-gray-600 dark:text-gray-300 font-semibold uppercase tracking-[0.2em] text-sm" data-translate="commercial.metrics.rework">Retrabajos entregados</p>
+</div>
+<div class="p-6 rounded-2xl bg-white dark:bg-gray-900/60 border border-primary/10 text-center shadow-lg shadow-primary/10">
+<p class="text-5xl font-black text-primary mb-2">100%</p>
+<p class="text-gray-600 dark:text-gray-300 font-semibold uppercase tracking-[0.2em] text-sm" data-translate="commercial.metrics.satisfaction">Satisfacción del cliente</p>
 </div>
 </div>
+</section>
 
-<div class="flex items-start gap-4 p-6 bg-gradient-to-br from-primary/5 to-transparent rounded-xl border border-primary/10">
-<span class="material-symbols-outlined text-primary text-4xl flex-shrink-0">checkmark_circle</span>
-<div>
-<h5 class="text-xl font-bold text-gray-900 dark:text-white mb-2">8 Baños de Lujo</h5>
-<p class="text-gray-600 dark:text-gray-400">Revestidos con mármol italiano y accesorios premium</p>
+<!-- Propuesta de valor -->
+<section class="mb-16">
+<div class="bg-gradient-to-br from-primary/10 via-primary/5 to-transparent dark:from-primary/15 dark:via-primary/10 rounded-3xl p-10 lg:p-14 border border-primary/20">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+<div class="space-y-6">
+<h4 class="text-3xl font-bold text-gray-900 dark:text-white" data-translate="commercial.value.heading">¿Por qué CNM Renovation para tu inversión?</h4>
+<p class="text-gray-700 dark:text-gray-300 text-lg leading-relaxed" data-translate="commercial.value.paragraph">Acompañamos a desarrolladores y propietarios de alto perfil desde la planeación hasta la entrega. Gestionamos permisos, presupuesto, proveedores y calidad para que tu proyecto salga a tiempo y con la estética que enamora a nuevos compradores.</p>
+<ul class="space-y-3 text-gray-700 dark:text-gray-300">
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-primary mt-0.5">verified</span><span data-translate="commercial.value.bullet1">Equipo senior con 15+ años coordinando mansiones y residencias boutique en Texas.</span></li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-primary mt-0.5">verified</span><span data-translate="commercial.value.bullet2">Dirección de obra con reportes semanales, control de costos y atención personalizada.</span></li>
+<li class="flex items-start gap-3"><span class="material-symbols-outlined text-primary mt-0.5">verified</span><span data-translate="commercial.value.bullet3">Red de proveedores de lujo: piedra natural importada, domótica premium, carpintería artesanal.</span></li>
+</ul>
 </div>
-</div>
-
-<div class="flex items-start gap-4 p-6 bg-gradient-to-br from-primary/5 to-transparent rounded-xl border border-primary/10">
-<span class="material-symbols-outlined text-primary text-4xl flex-shrink-0">checkmark_circle</span>
-<div>
-<h5 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Cocina Gourmet</h5>
-<p class="text-gray-600 dark:text-gray-400">Equipamiento de chef profesional y accesorios premium</p>
-</div>
-</div>
-
-<div class="flex items-start gap-4 p-6 bg-gradient-to-br from-primary/5 to-transparent rounded-xl border border-primary/10">
-<span class="material-symbols-outlined text-primary text-4xl flex-shrink-0">checkmark_circle</span>
-<div>
-<h5 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Automación del Hogar</h5>
-<p class="text-gray-600 dark:text-gray-400">Sistema inteligente de última tecnología</p>
-</div>
-</div>
-
-<div class="flex items-start gap-4 p-6 bg-gradient-to-br from-primary/5 to-transparent rounded-xl border border-primary/10">
-<span class="material-symbols-outlined text-primary text-4xl flex-shrink-0">checkmark_circle</span>
-<div>
-<h5 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Piscina Infinita</h5>
-<p class="text-gray-600 dark:text-gray-400">Con sistema de climatización y luces LED</p>
-</div>
-</div>
-
-<div class="flex items-start gap-4 p-6 bg-gradient-to-br from-primary/5 to-transparent rounded-xl border border-primary/10">
-<span class="material-symbols-outlined text-primary text-4xl flex-shrink-0">checkmark_circle</span>
-<div>
-<h5 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Sala de Cine</h5>
-<p class="text-gray-600 dark:text-gray-400">Con equipamiento audiovisual de primera línea</p>
+<div class="space-y-6 bg-white/60 dark:bg-gray-900/50 border border-white/40 dark:border-gray-700 rounded-2xl p-8 backdrop-blur">
+<h5 class="text-2xl font-bold text-gray-900 dark:text-white" data-translate="commercial.value.ctaHeading">Lleva esta experiencia a tu proyecto</h5>
+<p class="text-gray-700 dark:text-gray-300" data-translate="commercial.value.ctaParagraph">Coordinamos una visita privada a la mansión o un workshop en tu lote para mapear el alcance ideal.</p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="inline-flex items-center justify-center h-12 px-6 bg-primary text-white font-semibold rounded-lg hover:bg-primary-dark transition-all duration-300 shadow-lg" onclick="window.location.href='mailto:ncmllcompany@gmail.com?subject=Proyecto%20Comercial%20CNM'">
+<span class="material-symbols-outlined mr-2">mail</span><span data-translate="commercial.value.ctaPrimary">Solicitar visita guiada</span>
+</button>
+<button class="inline-flex items-center justify-center h-12 px-6 bg-white text-primary font-semibold rounded-lg hover:bg-gray-100 transition-all duration-300 border border-primary/30 dark:bg-transparent dark:text-white dark:hover:bg-white/10" onclick="window.location.href='contact.html'">
+<span class="material-symbols-outlined mr-2">calendar_month</span><span data-translate="commercial.value.ctaSecondary">Agendar una llamada</span>
+</button>
 </div>
 </div>
 </div>
@@ -242,11 +213,11 @@ Cada detalle fue cuidadosamente diseñado y ejecutado por el equipo de CNM Renov
 <!-- CTA Contacto -->
 <section class="py-16 lg:py-24 bg-gradient-to-r from-primary to-primary-light">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-<h2 class="text-3xl sm:text-4xl md:text-5xl font-black text-white mb-6">¿Quieres un Proyecto Similar?</h2>
-<p class="text-lg text-white/90 mb-8 max-w-2xl mx-auto">Contáctanos para discutir tu proyecto comercial de lujo</p>
+<h2 class="text-3xl sm:text-4xl md:text-5xl font-black text-white mb-6" data-translate="commercial.cta.title">¿Quieres un Proyecto Similar?</h2>
+<p class="text-lg text-white/90 mb-8 max-w-2xl mx-auto" data-translate="commercial.cta.subtitle">Contáctanos para discutir tu proyecto comercial de lujo</p>
 <button class="inline-flex items-center justify-center h-14 px-10 bg-white text-primary font-bold rounded-lg hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl text-lg" onclick="window.location.href='contact.html'">
 <span class="material-symbols-outlined mr-2">phone</span>
-Solicitar Consulta
+<span data-translate="commercial.cta.button">Solicitar Consulta</span>
 </button>
 </div>
 </section>
@@ -271,9 +242,9 @@ Solicitar Consulta
 <h4 class="text-lg font-semibold mb-4">Navegación</h4>
 <nav class="space-y-2">
 <a class="block text-gray-300 hover:text-primary transition-colors" href="index.html">Inicio</a>
-<a class="block text-gray-300 hover:text-primary transition-colors" href="servicios.html">Servicios</a>
-<a class="block text-gray-300 hover:text-primary transition-colors" href="portfolio.html">Proyectos</a>
+<a class="block text-gray-300 hover:text-primary transition-colors" href="trabajo-por-categoria.html">Categorías</a>
 <a class="block text-gray-300 hover:text-primary transition-colors" href="proyectos-comerciales.html">Proyectos Comerciales</a>
+<a class="block text-gray-300 hover:text-primary transition-colors" href="contact.html">Contacto</a>
 </nav>
 </div>
 <div>
@@ -301,3 +272,4 @@ function toggleMobileMenu() {
 
 </body>
 </html>
+
